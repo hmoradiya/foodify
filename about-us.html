@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodify - About Us</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/fav.png">
+
+    <!-- bootstrap 5.0.2 - css -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap_5.0.2/css/bootstrap.min.css">
+
+    <!-- slick slider - css -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/slick_1.8.1/slick.css">
+
+    <!-- animation - css -->
+    <link rel="stylesheet" href="assets/vendor/animation_css/animate.min.css">
+
+    <!-- theme css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- icons -->
+    <script src="assets/vendor/font_awsome_6.2.1/fontawsome_6.2.1.js"></script>
+
+</head>
+
+<body>
+
+    <!-- header start -->
+
+    <header class="header-wrapper z-30 w-100">
+        <div class="header-top" id="top-header">
+            <div class="container-fluid">
+                <div class="header-content">
+                    <div class="row justify-content-center justify-content-md-between align-items-center">
+                        <div class="col-auto d-none d-md-block">
+                            <p class="white-color">We're glad you're here, Foodify Welcomes you.</p>
+                        </div>
+                        <div class="col-auto">
+                            <div class="header-links">
+                                <ul>
+                                    <li>
+                                        <div class="header-social">
+                                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </li>
+                                    <li><i class="far fa-user"></i> <a href="#">Login</a> / <a href="#">Register</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-auto">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="logo"><a href="index.html"><img src="assets/images/logo.svg" alt="logo"></a>
+                            </div>
+                            <a href="javascript:void(0)"
+                                class="menu_btn navbar-toggler f-flex align-items-center justify-content-center d-lg-none">
+                                <i class="fa-solid fa-bars"></i>
+                            </a>
+
+                            <a class="overlay-header z-25 menu_btn" href="javascript:void(0)"></a>
+                            <nav class="main-menu">
+                                <div class="logo-sidemenu d-block d-lg-none z-2"><a href="index.html"><img
+                                            src="assets/images/logo.svg" alt="logo"></a>
+                                </div>
+                                <a href="javascript:void(0)"
+                                    class="menu_btn sidemenu-close d-flex align-items-center justify-content-center d-lg-none">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </a>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about-us.html" class="active">About Us</a></li>
+                                    <li class="menu-item-has-children"><a href="javascript:void(0);">Menu</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="menu.html">Menu List</a></li>
+                                            <li><a href="menu-details.html">Menu Detail</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children"><a href="javascript:void(0);">Page</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="chef.html">Our Chef</a></li>
+                                            <li><a href="chef-details.html">Chef Details</a></li>
+                                            <li><a href="faq.html">FAQ</a></li>
+                                            <li><a href="testimonial.html">Testimonial</a></li>
+                                            <li><a href="cart.html">Cart</a></li>
+                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                            <li><a href="error.html">Error</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children"><a href="javascript:void(0);">Blog</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-auto d-none d-lg-block px-2">
+                        <div class="header-button">
+                            <button type="button" class="icon-btn search_btn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <button type="button" class="icon-btn" data-bs-toggle="offcanvas"
+                                data-bs-target="#cart-sidebar" aria-controls="cart-sidebar">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="badge">5</span>
+                            </button>
+                            <a href="contact-us.html" class="theme-btn">BOOK YOUR SEAT</a>
+                            <div class="link-box">
+                                <div class="link-box_icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                <div>
+                                    <p class="link-box_text">Call Anytime 24/7</p><a href="+1234567890"
+                                        class="link-box_link">+(1) 123
+                                        456 7890</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- page header start -->
+    <div class="page-header-wrapper background-image"
+        style="background-image: url('assets/images/page_header_bg.jpg');">
+        <div class="container z-3">
+            <div class="page-header-content">
+                <h1 class="page-header-title">About <span class="style-font yellow-color">Us</span></h1>
+                <ul class="breadcumb-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- page header end -->
+
+    <div class="position-relative background-image about-us-container"
+        style="background-image: url('assets/images/about_us_page_bg.png');">
+
+        <!-- feature start -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 mt-5 mt-md-0 col-sm-6 feature-wrap">
+                        <div class="feature-item">
+                            <div class="feature-icon"><img src="assets/images/feature_icon_2.svg" alt="icon"></div>
+                            <div>
+                                <h3 class="feature-title">Healthy Fresh Foods</h3>
+                                <p class="feature-text">Quantimanes a comprehensive schema for speedy Taken.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5 mt-md-0 col-sm-6 feature-wrap">
+                        <div class="feature-item">
+                            <div class="feature-icon"><img src="assets/images/feature_icon_1.svg" alt="icon"></div>
+                            <div>
+                                <h3 class="feature-title">Promotional Code</h3>
+                                <p class="feature-text">Competently integrated schema so that it can be created rapidly.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-5 mt-md-0 col-sm-6 feature-wrap">
+                        <div class="feature-item">
+                            <div class="feature-icon"><img src="assets/images/feature_icon_3.svg" alt="icon"></div>
+                            <div>
+                                <h3 class="feature-title">Quick Serve At The Table</h3>
+                                <p class="feature-text">Mansikatils plan an integrated schema for Harbest fast.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- feature end -->
+
+        <!-- about us start -->
+        <section class="section-padding z-2 position-relative about-us-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-xxl-7 pe-xxl-5">
+                        <div class="text-center text-lg-start text-xl-end"><img src="assets/images/about_homepage.png"
+                                alt="About_Dish"></div>
+                    </div>
+                    <div class="col-xl-6 col-xxl-5 col-lg-9 mt-35 mt-xl-0">
+                        <div class="title-wrap mb-30 position-relative">
+                            <span class="sub-title-wrap">
+                                <img class="title-icon" src="assets/images/title_icon.svg" alt="icon"> About Us
+                            </span>
+                            <h2 class="title title-font">
+                                Straight To Your Table, Real <span class="style-font theme-color">Delicious Food</span>
+                            </h2>
+                        </div>
+                        <p class="mt-n2 mb-4">Imaginatively design high-payoff structures following interactive
+                            services.Whiteboard pandemic intellectual property
+                            collaboratively in the absence of cross-platform connections.</p>
+                        <div class="checklist-wrap">
+                            <div class="video-wrap position-relative">
+                                <img src="assets/images/about_homepage_video.jpg" alt="video">
+                                <a href="#" class="play-btn popup-video"><i class="fas fa-play"></i></a>
+                            </div>
+                            <div class="checklist">
+                                <ul>
+                                    <li>Yummy &amp; Healthy Foods</li>
+                                    <li>Dedicated Family &amp; Children's Area</li>
+                                    <li>Best Prices &amp; Deals</li>
+                                    <li>Produced with Fresh Ingredients</li>
+                                    <li>Songs &amp; other amenities</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ceo-details-wrap">
+                            <a href="about.html" class="theme-btn">DISCOVER MORE</a>
+                            <div class="profile-wrap">
+                                <div class="avater"><img src="assets/images/about_homepage_avtar.jpg" alt="avater">
+                                </div>
+                                <div class="ceo-details">
+                                    <h6 class="title">Oliver Jordan</h6>
+                                    <p class="designation mb-0">CEO, of Foodify Company</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-homepage-shap about-us-page">
+                <img src="assets/images/bg_shape_homepage_1.png" alt="bg-shapes">
+            </div>
+        </section>
+        <!-- about us end -->
+
+        <!-- about us start -->
+        <section class="section-padding z-2 position-relative about-us-wrap">
+            <div class="container">
+                <div class="row flex-row-reverse justify-content-end">
+                    <div class="col-xl-6 col-xxl-7 pe-xxl-5">
+                        <div class="about2-img-container position-relative">
+                            <div class="text-start"><img src="assets/images/about2_dish.png" alt="About"></div>
+                            <div class="about2-bg"><img src="assets/images/about2_dish_bg.png" alt="About"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-xxl-5 col-lg-9 mt-35 mt-xl-0">
+                        <div class="title-wrap mb-30 position-relative">
+                            <span class="sub-title-wrap">
+                                <img class="title-icon" src="assets/images/title_icon.svg" alt="icon"> Our Story
+                            </span>
+                            <h2 class="title title-font">
+                                The Foodify Has Selection Of <span class="style-font theme-color">High-Quality
+                                    Foods</span>
+                            </h2>
+                        </div>
+
+                        <div class="checklist-wrap flex-column">
+                            <p class="mt-n2 ">Provide compellingly qualified content rather than radical process
+                                changes. Communicate broad imperatives and premium
+                                mindshare phosphorescently. dynamism in dress.</p>
+                            <p class="mt-n2">Conceptualize sticky features with ease based on incoming information.
+                                Interactively launch personalised supply chains
+                                vs a paradigm that is goal-oriented. Reintermediate a client-centered model with
+                                credibility.</p>
+                        </div>
+                        <div class="ceo-details-wrap">
+                            <a href="about.html" class="theme-btn">DISCOVER MORE</a>
+                            <div class="about2-experience">
+                                <h3 class="counter-title"><span class="counter-number">20</span></h3>
+                                <div class="media-body">
+                                    <p class="counter-info">YEARS OF</p>
+                                    <h5 class="counter-text">Experience</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-assets-chilli position-absolute jump-reverse d-none d-xl-block"
+                style="bottom: 20%; right: 10%;">
+                <img src="assets/images/about2_assets_1.png" alt="assets">
+            </div>
+        </section>
+        <!-- about us end -->
+    </div>
+
+    <!-- most loved food start -->
+    <section class="section-padding dark-bg loved-food-wrap"
+        style="background-image: url('assets/images//most_loved_food_bg.png');">
+        <div class="container">
+            <div class="title-wrap position-relative text-center">
+                <span class="sub-title-wrap">
+                    <img class="title-icon" src="assets/images/title_icon.svg" alt="icon"> Our Strength
+                </span>
+                <h2 class="title title-font white-color">
+                    Our Favorite <span class="style-font theme-color">Cuisine</span>
+                </h2>
+                <p class="sub-text ms-auto me-auto white-color">Prioritize high-quality models over intuitive knowledge.
+                    Recaptiualize multifunctional materials dramatically.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 loved-food-item text-center">
+                    <div class="loved-food-img"><img src="assets/images/love_food_1.svg" alt="Food"></div>
+                    <div>
+                        <h3 class="loved-food-title white-color">Fast Foods</h3>
+                        <p class="loved-food-disc white-color">Create effective competencies and e-business portals with
+                            professionalism. convincing impact, sound technical
+                            execution</p>
+                    </div>
+                </div>
+                <div class="col-md-4 loved-food-item text-center">
+                    <div class="loved-food-img"><img src="assets/images/love_food_2.svg" alt="Food"></div>
+                    <div>
+                        <h3 class="loved-food-title white-color">Fast Foods</h3>
+                        <p class="loved-food-disc white-color">Create effective competencies and e-business portals with
+                            professionalism.
+                            convincing impact, sound technical
+                            execution</p>
+                    </div>
+                </div>
+                <div class="col-md-4 loved-food-item text-center">
+                    <div class="loved-food-img"><img src="assets/images/love_food_3.svg" alt="Food"></div>
+                    <div>
+                        <h3 class="loved-food-title white-color">Fast Foods</h3>
+                        <p class="loved-food-disc white-color">Create effective competencies and e-business portals with
+                            professionalism.
+                            convincing impact, sound technical
+                            execution</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- most loved food end -->
+
+    <!-- our chef start -->
+    <section class="section-padding pb-0 our-chef-wrap">
+        <div class="container">
+            <div class="title-wrap position-relative text-center">
+                <span class="sub-title-wrap">
+                    <img class="title-icon" src="assets/images/title_icon.svg" alt="icon"> Team Members
+                </span>
+                <h2 class="title title-font">
+                    Discover Our Former <span class="style-font theme-color">Chefs</span>
+                </h2>
+                <p class="sub-text ms-auto me-auto">Prioritize high-quality models over intuitive knowledge.
+                    Recaptiualize multifunctional materials dramatically.</p>
+            </div>
+            <div class="slider-wrapper">
+                <div class="our-menu-slider number-dots">
+                    <div class="slick-item">
+                        <div class="chef-card">
+                            <div class="chef-img">
+                                <img src="assets/images/chef_1.jpg" alt="chef">
+                            </div>
+                            <div class="chef-details">
+                                <h3 class="chef-title">
+                                    <a href="chef-details.html" tabindex="-1">William Johnson</a>
+                                </h3>
+                                <span class="chef-designation">Chief Executive</span>
+                                <div class="chef-social">
+                                    <a target="_blank" href="https://facebook.com/" tabindex="-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a target="_blank" href="https://twitter.com/" tabindex="-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a target="_blank" href="https://instagram.com/" tabindex="-1">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a target="_blank" href="https://linkedin.com/" tabindex="-1">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="chef-card">
+                            <div class="chef-img">
+                                <img src="assets/images/chef_2.jpg" alt="chef">
+                            </div>
+                            <div class="chef-details">
+                                <h3 class="chef-title">
+                                    <a href="chef-details.html" tabindex="-1">Sophia Miller</a>
+                                </h3>
+                                <span class="chef-designation">Senior Chef</span>
+                                <div class="chef-social">
+                                    <a target="_blank" href="https://facebook.com/" tabindex="-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a target="_blank" href="https://twitter.com/" tabindex="-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a target="_blank" href="https://instagram.com/" tabindex="-1">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a target="_blank" href="https://linkedin.com/" tabindex="-1">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="chef-card">
+                            <div class="chef-img">
+                                <img src="assets/images/chef_3.jpg" alt="chef">
+                            </div>
+                            <div class="chef-details">
+                                <h3 class="chef-title">
+                                    <a href="chef-details.html" tabindex="-1">Theodore Jones</a>
+                                </h3>
+                                <span class="chef-designation">Senior Chef</span>
+                                <div class="chef-social">
+                                    <a target="_blank" href="https://facebook.com/" tabindex="-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a target="_blank" href="https://twitter.com/" tabindex="-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a target="_blank" href="https://instagram.com/" tabindex="-1">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a target="_blank" href="https://linkedin.com/" tabindex="-1">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="chef-card">
+                            <div class="chef-img">
+                                <img src="assets/images/chef_4.jpg" alt="chef">
+                            </div>
+                            <div class="chef-details">
+                                <h3 class="chef-title">
+                                    <a href="chef-details.html" tabindex="-1">Anjeline Rosee</a>
+                                </h3>
+                                <span class="chef-designation">Senior Chef</span>
+                                <div class="chef-social">
+                                    <a target="_blank" href="https://facebook.com/" tabindex="-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a target="_blank" href="https://twitter.com/" tabindex="-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a target="_blank" href="https://instagram.com/" tabindex="-1">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a target="_blank" href="https://linkedin.com/" tabindex="-1">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="chef-card">
+                            <div class="chef-img">
+                                <img src="assets/images/chef_5.jpg" alt="chef">
+                            </div>
+                            <div class="chef-details">
+                                <h3 class="chef-title">
+                                    <a href="chef-details.html" tabindex="-1">Ava Garcia</a>
+                                </h3>
+                                <span class="chef-designation">Senior Chef</span>
+                                <div class="chef-social">
+                                    <a target="_blank" href="https://facebook.com/" tabindex="-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a target="_blank" href="https://twitter.com/" tabindex="-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a target="_blank" href="https://instagram.com/" tabindex="-1">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a target="_blank" href="https://linkedin.com/" tabindex="-1">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our chef end -->
+
+    <!-- feedback start -->
+    <section class="section-padding position-relative feedback-wrap"
+        style="background-image: url('assets/images/testimonial_bg.png');">
+        <div class="container z-2 position-relative">
+            <div class="row mb-4 justify-content-lg-between justify-content-center align-items-end">
+                <div class="col-lg-9 mb-n2 mb-lg-0">
+                    <div class="title-wrap position-relative text-center text-lg-start">
+                        <span class="sub-title-wrap">
+                            <img class="title-icon" src="assets/images/title_icon.svg" alt="icon"> Testimonials
+                        </span>
+                        <h2 class="title title-font">
+                            Our Customar <span class="style-font theme-color">Feedbacks</span>
+                        </h2>
+                        <p class="sub-text mx-auto mx-lg-0">Prioritize high-quality models over intuitive knowledge.
+                            Recaptiualize multifunctional materials dramatically.</p>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="btn-group slick-btn feedback-btn">
+                        <button class="slick-arrow previousFeedback">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button class="slick-arrow nextFeedback">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="slider-wrapper">
+                <div class="feedback-slider">
+                    <div class="feedback-card slick-item">
+                        <div class="feedback-icon">
+                            <img src="assets/images/quote.svg" alt="quote">
+                        </div>
+                        <p class="feedback-text">
+                            “Next-generation systems should be purposefully underwhelmed before pandemic action items.
+                            Reengineer client based
+                            systems in concert.”
+                        </p>
+                        <div class="feedback-review">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                        <div class="feedback-profile">
+                            <div class="feedback-avater">
+                                <img src="assets/images/feedback_1.jpg" alt="Avater">
+                            </div>
+                            <div class="feedback-user">
+                                <h3 class="feedback-user-name">Noah Clark</h3>
+                                <span class="feedback-user-desig">NY, USA</span>
+                            </div>
+                        </div>
+                        <div class="feedback-img">
+                            <img src="assets/images/feedback_img_1.png" alt="Image">
+                        </div>
+                    </div>
+                    <div class="feedback-card slick-item">
+                        <div class="feedback-icon">
+                            <img src="assets/images/quote.svg" alt="quote">
+                        </div>
+                        <p class="feedback-text">
+                            “Next-generation systems should be purposefully underwhelmed before pandemic action items.
+                            Reengineer client based
+                            systems in concert.”
+                        </p>
+                        <div class="feedback-review">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                        <div class="feedback-profile">
+                            <div class="feedback-avater">
+                                <img src="assets/images/feedback_2.jpg" alt="Avater">
+                            </div>
+                            <div class="feedback-user">
+                                <h3 class="feedback-user-name">Henry Corso</h3>
+                                <span class="feedback-user-desig">NJ, USA</span>
+                            </div>
+                        </div>
+                        <div class="feedback-img">
+                            <img src="assets/images/feedback_img_2.png" alt="Image">
+                        </div>
+                    </div>
+                    <div class="feedback-card slick-item">
+                        <div class="feedback-icon">
+                            <img src="assets/images/quote.svg" alt="quote">
+                        </div>
+                        <p class="feedback-text">
+                            “Next-generation systems should be purposefully underwhelmed before pandemic action items.
+                            Reengineer client based
+                            systems in concert.”
+                        </p>
+                        <div class="feedback-review">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                        <div class="feedback-profile">
+                            <div class="feedback-avater">
+                                <img src="assets/images/feedback_3.jpg" alt="Avater">
+                            </div>
+                            <div class="feedback-user">
+                                <h3 class="feedback-user-name">Amelia Nion</h3>
+                                <span class="feedback-user-desig">NJ, USA</span>
+                            </div>
+                        </div>
+                        <div class="feedback-img">
+                            <img src="assets/images/feedback_img_3.png" alt="Image">
+                        </div>
+                    </div>
+                    <div class="feedback-card slick-item">
+                        <div class="feedback-icon">
+                            <img src="assets/images/quote.svg" alt="quote">
+                        </div>
+                        <p class="feedback-text">
+                            “Next-generation systems should be purposefully underwhelmed before pandemic action items.
+                            Reengineer client based
+                            systems in concert.”
+                        </p>
+                        <div class="feedback-review">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                        <div class="feedback-profile">
+                            <div class="feedback-avater">
+                                <img src="assets/images/feedback_4.jpg" alt="Avater">
+                            </div>
+                            <div class="feedback-user">
+                                <h3 class="feedback-user-name">Reza Emlin</h3>
+                                <span class="feedback-user-desig">NJ, USA</span>
+                            </div>
+                        </div>
+                        <div class="feedback-img">
+                            <img src="assets/images/feedback_img_4.png" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popular-assets-leaf position-absolute jump-reverse" style="top: 20%; left: 0px;">
+            <img src="assets/images/popular_assets_1.png" alt="assets">
+        </div>
+        <div class="popular-assets-chilli position-absolute jump-reverse" style="top: 0%; right: 0px;">
+            <img src="assets/images/popular_assets_2.png" alt="assets">
+        </div>
+        <div class="popular-assets-leaf position-absolute jump" style="right: 0px; bottom: 0%;">
+            <img src="assets/images/popular_assets_3.png" alt="assets">
+        </div>
+    </section>
+    <!-- feedback end -->
+
+
+    <!-- footer start -->
+
+    <footer class="footer-wrapper position-relative z-2">
+        <div class="container">
+            <div class="footer-top">
+                <div class="row align-items-center">
+                    <div class="col-xl-3 mb-4 mb-lg-3">
+                        <div class="footer-logo"><a href="index.html"><img src="assets/images/logo-white.svg"
+                                    alt="footer-logo"></a></div>
+                    </div>
+                    <div class="col-xl-9">
+                        <div class="subscribe-wrapper">
+                            <div>
+                                <h2 class="subscribe-title">Subscription News</h2>
+                                <p class="subscribe-text">Subscribe to the weekly newsletter for latest updates.</p>
+                            </div>
+                            <form class="newsletter-form"><input class="form-control white" type="email"
+                                    placeholder="Enter Email Address" required="">
+                                <button type="submit" class="theme-btn white">SUBCRIBE<i
+                                        class="fas fa-arrow-right ms-2"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="main-footer">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 col-xl-3 mb-4 mb-md-3 mb-lg-0">
+                        <div class="widget footer-widget">
+                            <h3 class="title-main">About Restaurant</h3>
+                            <div class="about-box">
+                                <p class="about-text white-color">Quickly supply alternative strategic theme areas
+                                    vis-a-vis B2C
+                                    mindshare.
+                                    Objectively repurpose stand-alone synergy via user-centric architectures.</p>
+                                <div class="social-box"><a href="https://www.facebook.com/"><i
+                                            class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i
+                                            class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i
+                                            class="fab fa-linkedin-in"></i></a> <a href="https://www.whatsapp.com/"><i
+                                            class="fab fa-whatsapp"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto mb-4 mb-md-3 mb-lg-0">
+                        <div class="widget footer-menu footer-widget">
+                            <h3 class="title-main">Quick Links</h3>
+                            <ul class="menu">
+                                <li><a href="about-us.html" class="active">About Us</a></li>
+                                <li><a href="menu.html">Menu</a></li>
+                                <li><a href="testimonial.html">Testimonial</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto mb-4 mb-md-3 mb-lg-0">
+                        <div class="widget footer-menu footer-widget">
+                            <h3 class="title-main">Other Pages</h3>
+                            <ul class="menu">
+                                <li><a href="chef.html">Our Chef</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="cart.html">Cart</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="wishlist.html">Wishlist</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto">
+                        <div class="widget footer-widget">
+                            <h3 class="title-main">Contact Now</h3>
+                            <div class="contact-box">
+                                <div class="info-box">
+                                    <div class="info-box-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                    <p class="info-box-text"><a href="#">H-307, Shreedhar Flora, Ahmedabad, Gujarat
+                                            382350</a>
+                                    </p>
+                                </div>
+                                <div class="info-box">
+                                    <div class="info-box-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                                    <p class="info-box-text"><a href="tel:+1234567890">+(1) 123
+                                            456 7890</a> <a href="tel:+1234567890">+(1) 123 456
+                                            7890</a></p>
+                                </div>
+                                <div class="info-box">
+                                    <div class="info-box-icon"><i class="fa-regular fa-envelope"></i></div>
+                                    <p class="info-box-text"><a
+                                            href="mailto:info1.example@gmail.com">info1.example@gmail.com</a>
+                                        <a href="mailto:info2.example@gmail.com">info2.example@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-wrap">
+            <div class="container">
+
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                        <p class="copyright-text white-color">Copyright <i class="fa-regular fa-copyright"></i> 2022 <a
+                                href="https://www.srashtasoft.com/">SrashtaSoft</a>. All Rights
+                            Reserved.</p>
+                    </div>
+                    <div class="col-lg-6 text-end d-none d-lg-block">
+                        <div class="footer-links">
+                            <ul>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms &amp; Condition</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end -->
+
+    <!-- scroll top start -->
+
+    <a href="#" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <!-- scroll top end -->
+
+    <!-- mini cart start -->
+
+    <div class="offcanvas offcanvas-end cart-sidemenu-wrapper" tabindex="-1" id="cart-sidebar"
+          >
+        <div class="offcanvas-header d-flex align-items-center">
+            <h5 class="mb-0">Shopping cart</h5>
+            <button type="button" class="closeButton" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="mini-cart">
+                <li class="mini-cart-item">
+                    <a href="#" class="remove-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <a href="#" class="item-name">
+                        <img src="assets/images/item_1.png" alt="Item">Egg toast
+                    </a>
+                    <span class="quantity">
+                        1 × <span class="price"><span class="price-currency">$</span>55.00</span>
+                    </span>
+                </li>
+                <li class="mini-cart-item">
+                    <a href="#" class="remove-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <a href="#" class="item-name">
+                        <img src="assets/images/item_2.png" alt="Cart Image">Delicious Salad
+                    </a>
+                    <span class="quantity">
+                        1 × <span class="price"><span class="price-currency">$</span>40.00</span>
+                    </span>
+                </li>
+                <li class="mini-cart-item">
+                    <a href="#" class="remove-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <a href="#" class="item-name">
+                        <img src="assets/images/item_3.png" alt="Cart Image">Pepperoni Pizza
+                    </a>
+                    <span class="quantity">
+                        1 × <span class="price"><span class="price-currency">$</span>30.00</span>
+                    </span>
+                </li>
+                <li class="mini-cart-item">
+                    <a href="#" class="remove-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <a href="#" class="item-name">
+                        <img src="assets/images/item_4.png" alt="Cart Image">Spe. Rajma
+                    </a>
+                    <span class="quantity">
+                        1 × <span class="price"><span class="price-currency">$</span>25.00</span>
+                    </span>
+                </li>
+                <li class="mini-cart-item">
+                    <a href="#" class="remove-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <a href="#" class="item-name">
+                        <img src="assets/images/item_5.png" alt="Cart Image">BBQ Special
+                    </a>
+                    <span class="quantity">
+                        1 × <span class="price"><span class="price-currency">$</span>100.00</span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="offcanvas-footer p-3">
+            <p class="total-text"><b>Subtotal:</b> $250</p>
+            <div class="row">
+                <div class="col-6">
+                      <a href="cart.html" class="theme-btn w-100">VIEW CART</a>
+                </div>
+                <div class="col-6">
+                    <a href="checkout.html" class="theme-btn w-100">CHECKOUT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- mini cart end -->
+
+
+    <!-- search container start -->
+
+    <div class="popup-search-box d-none d-lg-block" id="popup-search">
+        <button class="search-close search_btn">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <form action="#">
+            <input type="text" placeholder="What are you looking for?">
+            <button type="submit" class="search_btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+    </div>
+
+    <!-- search container end -->
+
+    <!-- loader start -->
+    <div class="loader-section">
+        <span class="loader">
+            <span></span>
+            <span></span>
+        </span>
+    </div>
+    <!-- loader end -->
+
+    <!-- bootstrap 5.0.2 - js -->
+    <script src="assets/vendor/bootstrap_5.0.2/js/bootstrap.min.js"></script>
+
+    <!-- jquery-3.6.1 -->
+    <script src="assets/vendor/jquery_3.6.1/jquery_3.6.1.min.js"></script>
+
+    <!-- jquery isotope-3.0.6 -->
+    <script src="assets/vendor/jquery_isotope/isotope_docs.min.js"></script>
+
+    <!-- slick -->
+    <script src="assets/vendor/slick_1.8.1/slick.min.js"></script>
+    <script src="assets/vendor/slick_1.8.1/slick_animation.js"></script>
+    <!-- header js -->
+    <script src="assets/js/header.js"></script>
+
+    <!-- skider js -->
+    <script src="assets/js/slider.js"></script>
+
+    <!-- theme js -->
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>

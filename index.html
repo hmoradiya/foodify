@@ -1,0 +1,1691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodify</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/fav.png">
+
+    <!-- bootstrap 5.0.2 - css -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap_5.0.2/css/bootstrap.min.css">
+
+    <!-- slick slider - css -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/slick_1.8.1/slick.css">
+
+    <!-- animation - css -->
+    <link rel="stylesheet" href="assets/vendor/animation_css/animate.min.css">
+
+    <!-- theme css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- icons -->
+    <script src="assets/vendor/font_awsome_6.2.1/fontawsome_6.2.1.js"></script>
+
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header class="header-wrapper z-30 w-100">
+        <div class="header-top" id="top-header">
+            <div class="container-fluid">
+                <div class="header-content">
+                    <div class="row justify-content-center justify-content-md-between align-items-center">
+                        <div class="col-auto d-none d-md-block">
+                            <p class="white-color">We're glad you're here, Foodify Welcomes you.</p>
+                        </div>
+                        <div class="col-auto">
+                            <div class="header-links">
+                                <ul>
+                                    <li>
+                                        <div class="header-social">
+                                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </li>
+                                    <li><i class="far fa-user"></i> <a href="#">Login</a> / <a href="#">Register</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-auto">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="logo"><a href="index.html"><img src="assets/images/logo.svg" alt="logo"></a>
+                            </div>
+                            <a href="javascript:void(0)"
+                                class="menu_btn navbar-toggler f-flex align-items-center justify-content-center d-lg-none">
+                                <i class="fa-solid fa-bars"></i>
+                            </a>
+
+                            <a class="overlay-header z-25 menu_btn" href="javascript:void(0)"></a>
+                            <nav class="main-menu">
+                                <div class="logo-sidemenu d-block d-lg-none z-2"><a href="index.html"><img
+                                            src="assets/images/logo.svg" alt="logo"></a>
+                                </div>
+                                <a href="javascript:void(0)"
+                                    class="menu_btn sidemenu-close d-flex align-items-center justify-content-center d-lg-none">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </a>
+                                <ul>
+                                    <li><a href="index.html" class="active">Home</a></li>
+                                    <li><a href="about-us.html">About Us</a></li>
+                                    <li class="menu-item-has-children"><a href="javascript:void(0);">Menu</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="menu.html">Menu List</a></li>
+                                            <li><a href="menu-details.html">Menu Detail</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children"><a href="javascript:void(0);">Page</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="chef.html">Our Chef</a></li>
+                                            <li><a href="chef-details.html">Chef Details</a></li>
+                                            <li><a href="faq.html">FAQ</a></li>
+                                            <li><a href="testimonial.html">Testimonial</a></li>
+                                            <li><a href="cart.html">Cart</a></li>
+                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                            <li><a href="error.html">Error</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children"><a href="javascript:void(0);">Blog</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-auto d-none d-lg-block px-2">
+                        <div class="header-button">
+                            <button type="button" class="icon-btn search_btn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <button type="button" class="icon-btn" data-bs-toggle="offcanvas"
+                                data-bs-target="#cart-sidebar" aria-controls="cart-sidebar">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="badge">5</span>
+                            </button>
+                            <a href="contact-us.html" class="theme-btn">BOOK YOUR SEAT</a>
+                            <div class="link-box">
+                                <div class="link-box_icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                <div>
+                                    <p class="link-box_text">Call Anytime 24/7</p><a href="+1234567890"
+                                        class="link-box_link">+(1) 123
+                                        456 7890</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- slider start -->
+    <section class="hero-slider hero-slider-wrap number-dots vertical">
+        <div class="slider-item">
+            <img class="banner-img" src="assets/images/slider_banner_1.jpg" alt="Banner Image 1">
+            <img src="assets/images/slider_shape_1.png" class="position-absolute z-3 h-100 animate__animated"
+                data-animation-in="animate__fadeInLeft" data-delay-in="0.25" style="top: 0;" alt="Shape">
+            <img src="assets/images/slider_shape_2.png"
+                class="position-absolute z-3 animate__animated  d-none d-xl-block slider-shap-2"
+                data-animation-in="animate__fadeInDown" data-delay-in="0.25" alt="Shape">
+            <div class="container slider-content position-absolute z-3">
+                <h1 class="white-color animate__animated" data-animation-in="animate__bounceInRight" data-delay-in="0">
+                    THE TASTE IS </h1>
+                <h1 class="white-color animate__animated" data-animation-in="animate__bounceInRight"
+                    data-delay-in="0.05">SERVED, AS YOU</h1>
+                <h1 class="white-color animate__animated" data-animation-in="animate__bounceInRight"
+                    data-delay-in="0.10">
+                    LIKE THE
+                    <span class="style-font yellow-color position-relative">
+                        FOODS <img src="assets/images/title_line.png" alt="Title Line" class="position-absolute" style="left: 0;">
+                    </span>
+                </h1>
+                <div class="btn-group mt-4 mt-lg-5 animate__animated" data-animation-in="animate__bounceInRight"
+                    data-delay-in="0.15">
+                    <button class="theme-btn yellow-bg white">ORDER NOW</button>
+                    <button class="theme-btn white">BROWSE MENU</button>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item">
+            <img class="banner-img" src="assets/images/slider_banner_2.jpg" alt="Banner Image 2" >
+            <img src="assets/images/slider_shape_1.png" class="position-absolute z-3 h-100 animate__animated"
+                data-animation-in="animate__fadeInLeft" data-delay-in="0.25" style="top: 0;" alt="Shape">
+            <img src="assets/images/slider_shape_2.png"
+                class="position-absolute z-3 animate__animated  d-none d-xl-block slider-shap-2"
+                data-animation-in="animate__fadeInDown" data-delay-in="0.25" alt="Shape">
+            <div class="container slider-content position-absolute z-3">
+                <h1 class="white-color animate__animated" data-animation-in="animate__bounceInRight" data-delay-in="0">
+                    WE OFFER EXCELLENT
+                </h1>
+                <h1 class="white-color animate__animated" data-animation-in="animate__bounceInRight"
+                    data-delay-in="0.05">BEHAVIOUR AND</h1>
+                <h1 class="white-color animate__animated" data-animation-in="animate__bounceInRight"
+                    data-delay-in="0.10">
+                    DELICIOUS
+                    <span class="style-font yellow-color position-relative">
+                        FOODS <img src="assets/images/title_line.png" alt="Title Line" class="position-absolute" style="left: 0;">
+                    </span>
+                </h1>
+                <div class="btn-group mt-4 mt-lg-5 animate__animated" data-animation-in="animate__bounceInRight"
+                    data-delay-in="0.15">
+                    <button class="theme-btn yellow-bg white">ORDER NOW</button>
+                    <button class="theme-btn white">BROWSE MENU</button>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item">
+            <img class="banner-img" src="assets/images/slider_banner_3.jpg" alt="Banner Image 3">
+            <img src="assets/images/slider_shape_1.png" class="position-absolute z-3 h-100 animate__animated"
+                data-animation-in="animate__fadeInLeft" data-delay-in="0.25" style="top: 0;" alt="Shape">
+            <img src="assets/images/slider_shape_2.png"
+                class="position-absolute z-3 animate__animated d-none d-xl-block slider-shap-2"
+                data-animation-in="animate__fadeInDown" data-delay-in="0.25" alt="Shape">
+            <div class="container slider-content position-absolute z-3">
+                <h1 class="white-color animate__animated" data-animation-in="animate__bounceInRight" data-delay-in="0">
+                    YOU ALWAYS ENJOY
+                </h1>
+                <h1 class="white-color animate__animated" data-animation-in="animate__bounceInRight"
+                    data-delay-in="0.05">THE FLAVOUR OF</h1>
+                <h1 class="white-color animate__animated" data-animation-in="animate__bounceInRight"
+                    data-delay-in="0.10">
+                    FAST
+                    <span class="style-font yellow-color position-relative">
+                        FOODS <img src="assets/images/title_line.png" alt="Title Line" class="position-absolute" style="left: 0;">
+                    </span>
+                </h1>
+                <div class="btn-group mt-4 mt-lg-5 animate__animated" data-animation-in="animate__bounceInRight"
+                    data-delay-in="0.15">
+                    <button class="theme-btn yellow-bg white">ORDER NOW</button>
+                    <button class="theme-btn white">BROWSE MENU</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slider end -->
+
+    <!-- feature start -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4 mt-5 mt-md-0 col-sm-6 feature-wrap">
+                    <div class="feature-item">
+                        <div class="feature-icon"><img src="assets/images/feature_icon_2.svg" alt="icon"></div>
+                        <div>
+                            <h3 class="feature-title">Healthy Fresh Foods</h3>
+                            <p class="feature-text">Quantimanes a comprehensive schema for speedy Taken.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5 mt-md-0 col-sm-6 feature-wrap">
+                    <div class="feature-item">
+                        <div class="feature-icon"><img src="assets/images/feature_icon_1.svg" alt="icon"></div>
+                        <div>
+                            <h3 class="feature-title">Promotional Code</h3>
+                            <p class="feature-text">Competently integrated schema so that it can be created rapidly.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-5 mt-md-0 col-sm-6 feature-wrap">
+                    <div class="feature-item">
+                        <div class="feature-icon"><img src="assets/images/feature_icon_3.svg" alt="icon"></div>
+                        <div>
+                            <h3 class="feature-title">Quick Serve At The Table</h3>
+                            <p class="feature-text">Mansikatils plan an integrated schema for Harbest fast.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- feature end -->
+
+    <!-- about us start -->
+    <section class="section-padding pt-0 z-2 position-relative about-us-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-xxl-7 pe-xxl-5">
+                    <div class="text-end"><img src="assets/images/about_homepage.png" alt="About_Dish"></div>
+                </div>
+                <div class="col-xl-6 col-xxl-5 col-lg-9 mt-35 mt-xl-0">
+                    <div class="title-wrap mb-30 position-relative">
+                        <span class="sub-title-wrap">
+                            <img class="title-icon" src="assets/images/title_icon.svg" alt="icon"> About Us
+                        </span>
+                        <h2 class="title title-font">
+                            Straight To Your Table, Real <span class="style-font theme-color">Delicious Food</span>
+                        </h2>
+                    </div>
+                    <p class="mt-n2 mb-4">Imaginatively design high-payoff structures following interactive
+                        services.Whiteboard pandemic intellectual property
+                        collaboratively in the absence of cross-platform connections.</p>
+                    <div class="checklist-wrap">
+                        <div class="video-wrap position-relative">
+                            <img src="assets/images/about_homepage_video.jpg" alt="video">
+                            <a href="#" class="play-btn popup-video"><i class="fas fa-play"></i></a>
+                        </div>
+                        <div class="checklist">
+                            <ul>
+                                <li>Yummy &amp; Healthy Foods</li>
+                                <li>Dedicated Family &amp; Children's Area</li>
+                                <li>Best Prices &amp; Deals</li>
+                                <li>Produced with Fresh Ingredients</li>
+                                <li>Songs &amp; other amenities</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ceo-details-wrap">
+                        <a href="about.html" class="theme-btn">DISCOVER MORE</a>
+                        <div class="profile-wrap">
+                            <div class="avater"><img src="assets/images/about_homepage_avtar.jpg" alt="avater"></div>
+                            <div class="ceo-details">
+                                <h6 class="title">Oliver Jordan</h6>
+                                <p class="designation mb-0">CEO, of Foodify Company</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-homepage-shap">
+            <img src="assets/images/bg_shape_homepage_1.png" alt="bg-shapes">
+        </div>
+    </section>
+    <!-- about us end -->
+
+    <!-- our menu start -->
+    <section class="section-padding our-menu-wrap" style="background-image: url('assets/images/menu_homepage_bg.png');">
+        <div class="container">
+            <div class="title-wrap position-relative text-center">
+                <span class="sub-title-wrap">
+                    <img class="title-icon" src="assets/images/title_icon.svg" alt="icon"> Our Menu
+                </span>
+                <h2 class="title title-font">
+                    Explore Our <span class="style-font theme-color">Menu</span>
+                </h2>
+                <p class="sub-text ms-auto me-auto">Prefer high-quality models to intuitive data, objectively.
+                    Recapitalize multifunctional materials in an impactful way.</p>
+            </div>
+            <div class="slider-wrapper">
+                <div class="our-menu-slider number-dots">
+                    <div class="slick-item">
+                        <div class="menu-card text-center category">
+                            <div class="menu-card-img"><img src="assets/images/menu_1.png" alt="Menu Image"
+                                    class="d-inline-block">
+                            </div>
+                            <div class="menu-card-content">
+                                <h3 class="menu-card-title"><a href="menu-details.html" tabindex="-1">Egg toast</a>
+                                </h3>
+                                <p class="menu-card-details">Rather of being visionary, leadership should be more
+                                    collaborative.</p><a href="menu.html" class="theme-btn" tabindex="-1">BROWSE
+                                    MENU</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="menu-card text-center category">
+                            <div class="menu-card-img"><img src="assets/images/menu_2.png" alt="Menu Image"
+                                    class="d-inline-block">
+                            </div>
+                            <div class="menu-card-content">
+                                <h3 class="menu-card-title"><a href="menu-details.html" tabindex="-1">Delicious
+                                        Salad</a>
+                                </h3>
+                                <p class="menu-card-details">I understand that it is preferable to be a part of an
+                                    expanding array of leadership.</p><a href="menu.html" class="theme-btn"
+                                    tabindex="-1">BROWSE
+                                    MENU</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="menu-card text-center category">
+                            <div class="menu-card-img"><img src="assets/images/menu_3.png" alt="Menu Image"
+                                    class="d-inline-block">
+                            </div>
+                            <div class="menu-card-content">
+                                <h3 class="menu-card-title"><a href="menu-details.html" tabindex="-1">Pepperoni
+                                        Pizza</a>
+                                </h3>
+                                <p class="menu-card-details">Rather of being visionary, leadership should be more
+                                    collaborative.</p><a href="menu.html" class="theme-btn" tabindex="-1">BROWSE
+                                    MENU</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="menu-card text-center category">
+                            <div class="menu-card-img"><img src="assets/images/menu_4.png" alt="Menu Image"
+                                    class="d-inline-block">
+                            </div>
+                            <div class="menu-card-content">
+                                <h3 class="menu-card-title"><a href="menu-details.html" tabindex="-1">Italian Pizza</a>
+                                </h3>
+                                <p class="menu-card-details">I understand that it is preferable to be a part of an
+                                    expanding array of leadership.</p><a href="menu.html" class="theme-btn"
+                                    tabindex="-1">BROWSE
+                                    MENU</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="menu-card text-center category">
+                            <div class="menu-card-img"><img src="assets/images/menu_5.png" alt="Menu Image"
+                                    class="d-inline-block">
+                            </div>
+                            <div class="menu-card-content">
+                                <h3 class="menu-card-title"><a href="menu-details.html" tabindex="-1">Chicken
+                                        Biryani</a>
+                                </h3>
+                                <p class="menu-card-details">Rather of being visionary, leadership should be more
+                                    collaborative.</p><a href="menu.html" class="theme-btn" tabindex="-1">BROWSE
+                                    MENU</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our menu end -->
+
+    <!-- why us start -->
+    <section class="section-padding dark-bg why-us-wrap"
+        style="background-image: url('assets/images/why_homepage_bg.png');">
+        <div class="container">
+            <div class="row flex-row-reverse justify-content-end">
+                <div class="col-xl-7 col-lg-6 ps-xxl-5">
+                    <div class="why-product-wrap">
+                        <div class="product-img"><img src="assets/images/why_homepage_product.png" alt="Product"></div>
+                        <div class="product-frame"><img src="assets/images/why_homepage_frame.png" alt="Product Frame">
+                        </div>
+                        <div class="discount-bg background-image"
+                            style="background-image: url('assets/images/why_discount_bg.svg');">
+                            <h4 class="discount-percentage">
+                                50 <span class="small-text">%<br><span class="text">Off</span></span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 mt-5 mt-lg-0 pe-2 pe-lg-5">
+                    <div class="title-wrap position-relative mb-30">
+                        <span class="sub-title-wrap">
+                            <img class="title-icon" src="assets/images/title_icon.svg" alt="icon"> Why Choose Us
+                        </span>
+                        <h2 class="title title-font white-color">
+                            The Best Food Prepared In Our <span class="style-font theme-color">Restaurant</span>
+                        </h2>
+                        <p class="sub-text ms-auto me-auto white-color">Imaginatively design high-payoff structures
+                            following interactive services.Whiteboard pandemic intellectual property
+                            collaboratively in the absence of cross-platform connections.</p>
+                    </div>
+                    <div class="our-feature-wrap">
+                        <div class="our-feature-item">
+                            <div class="our-feature-icon background-image"
+                                style="background-image: url('assets/images/our_feature_bg.svg');">
+                                <img src="assets/images/our_feature_1.svg" alt="icon">
+                            </div>
+                            <div>
+                                <h3 class="our-feature-title">Buffet Service</h3>
+                                <p class="our-feature-discription">Launch client-base portals after cross-platform data
+                                    with distinction.</p>
+                            </div>
+                        </div>
+                        <div class="our-feature-item">
+                            <div class="our-feature-icon background-image"
+                                style="background-image: url('assets/images/our_feature_bg.svg');">
+                                <img src="assets/images/our_feature_2.svg" alt="icon">
+                            </div>
+                            <div>
+                                <h3 class="our-feature-title">Cook & Sarve Quicker</h3>
+                                <p class="our-feature-discription">Launch client-base portals after cross-platform data
+                                    with distinction.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <a href="shop.html" class="theme-btn white">Order Now</a>
+                        <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                            class="video-btn d-flex align-items-center white-color">
+                            <div class="play-btn popup-video position-relative me-2">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <span class="btn-text">
+                                How It Works
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- why us end -->
+
+    <!-- popular menu start -->
+    <section class="section-padding position-relative popular-menu-wrap">
+        <div class="container">
+            <div class="title-wrap position-relative text-center">
+                <span class="sub-title-wrap">
+                    <img class="title-icon" src="assets/images/title_icon.svg" alt="icon"> Popular Menu
+                </span>
+                <h2 class="title title-font">
+                    Our Best-Selling Delicious <span class="style-font theme-color">Foods</span>
+                </h2>
+                <p class="sub-text ms-auto me-auto">Prefer high-quality models to intuitive data, objectively.
+                    Recapitalize multifunctional materials in an impactful way.</p>
+            </div>
+            <div class="isotope-wrapper popular-menu-tabs">
+                <div class="isotope-toolbar">
+                    <button class="isotope-toolbar-btn active" data-type="*" name="isotope-filter">
+                        <span>All MENUS</span>
+                    </button>
+                    <button class="isotope-toolbar-btn" data-type="sandwich" name="isotope-filter">
+                        <span>SANDWICH</span>
+                    </button>
+                    <button class="isotope-toolbar-btn" data-type="pizza" name="isotope-filter">
+                        <span>PIZZA</span>
+                    </button>
+                    <button class="isotope-toolbar-btn" data-type="burger" name="isotope-filter">
+                        <span>BURGER</span>
+                    </button>
+                    <button class="isotope-toolbar-btn" data-type="chicken" name="isotope-filter">
+                        <span>CHICKEN</span>
+                    </button>
+                    <button class="isotope-toolbar-btn" data-type="desserts" name="isotope-filter">
+                        <span>DESSERTS</span>
+                    </button>
+                </div>
+                <div class="row isotope-box">
+                    <div class="col-xl-3 col-lg-4 col-sm-6 filter-item isotope-item" data-type="burger">
+                        <div class="menu-card text-center product">
+                            <div class="menu-card-img">
+                                <img src="assets/images/menu_1.png" alt="Product Image" class="d-inline-block">
+                            </div>
+                            <div class="menu-card-content">
+                                <a href="menu.html" class="category-name">Pizza</a>
+                                <div class="product-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
+                                        <span style="width:75%">Rated<strong class="rating">4.00</strong> out of
+                                            5</span>
+                                    </div>(4.00)
+                                </div>
+                                <h3 class="menu-card-title">
+                                    <a href="menu-details.html">Egg toast</a>
+                                </h3>
+                                <span class="product-price">$60.85<del>$99.99</del></span>
+                                <div class="product-actions">
+                                    <a data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                                        class="icon-btn popup-content c-pointer">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="cart.html" class="icon-btn">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                    </a>
+                                    <a href="wishlist.html" class="icon-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 filter-item isotope-item" data-type="chicken">
+                        <div class="menu-card text-center product">
+                            <div class="menu-card-img">
+                                <img src="assets/images/menu_2.png" alt="Product Image" class="d-inline-block">
+                            </div>
+                            <div class="menu-card-content">
+                                <a href="menu.html" class="category-name">Chicken</a>
+                                <div class="product-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
+                                        <span style="width:75%">Rated<strong class="rating">4.00</strong> out of
+                                            5</span>
+                                    </div>(4.00)
+                                </div>
+                                <h3 class="menu-card-title">
+                                    <a href="menu-details.html">Delicious Salad</a>
+                                </h3>
+                                <span class="product-price">$80.85</span>
+                                <div class="product-actions">
+                                    <a data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                                        class="icon-btn popup-content c-pointer">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="cart.html" class="icon-btn">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                    </a>
+                                    <a href="wishlist.html" class="icon-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 filter-item isotope-item" data-type="pizza">
+                        <div class="menu-card text-center product">
+                            <div class="menu-card-img">
+                                <img src="assets/images/menu_4.png" alt="Product Image" class="d-inline-block">
+                            </div>
+                            <div class="menu-card-content">
+                                <a href="menu.html" class="category-name">Mutton</a>
+                                <div class="product-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
+                                        <span style="width:75%">Rated<strong class="rating">4.00</strong> out of
+                                            5</span>
+                                    </div>(4.00)
+                                </div>
+                                <h3 class="menu-card-title">
+                                    <a href="menu-details.html">Italian Pizza</a>
+                                </h3>
+                                <span class="product-price">$70.00</span>
+                                <div class="product-actions">
+                                    <a data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                                        class="icon-btn popup-content c-pointer">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="cart.html" class="icon-btn">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                    </a>
+                                    <a href="wishlist.html" class="icon-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 filter-item isotope-item" data-type="sandwich">
+                        <div class="menu-card text-center product">
+                            <div class="menu-card-img">
+                                <img src="assets/images/menu_5.png" alt="Product Image" class="d-inline-block">
+                            </div>
+                            <div class="menu-card-content">
+                                <a href="menu.html" class="category-name">Chicken</a>
+                                <div class="product-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
+                                        <span style="width:75%">Rated<strong class="rating">4.00</strong> out of
+                                            5</span>
+                                    </div>(4.00)
+                                </div>
+                                <h3 class="menu-card-title">
+                                    <a href="menu-details.html">Chicken Biryani</a>
+                                </h3>
+                                <span class="product-price">$100.00</span>
+                                <div class="product-actions">
+                                    <a data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                                        class="icon-btn popup-content c-pointer">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="cart.html" class="icon-btn">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                    </a>
+                                    <a href="wishlist.html" class="icon-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 filter-item isotope-item" data-type="burger">
+                        <div class="menu-card text-center product">
+                            <div class="menu-card-img">
+                                <img src="assets/images/menu_6.png" alt="Product Image" class="d-inline-block">
+                            </div>
+                            <div class="menu-card-content">
+                                <a href="menu.html" class="category-name">Breakfast</a>
+                                <div class="product-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
+                                        <span style="width:75%">Rated<strong class="rating">4.00</strong> out of
+                                            5</span>
+                                    </div>(4.00)
+                                </div>
+                                <h3 class="menu-card-title">
+                                    <a href="menu-details.html">Arroz con Pollo</a>
+                                </h3>
+                                <span class="product-price">$20.85</span>
+                                <div class="product-actions">
+                                    <a data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                                        class="icon-btn popup-content c-pointer">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="cart.html" class="icon-btn">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                    </a>
+                                    <a href="wishlist.html" class="icon-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 filter-item isotope-item" data-type="pizza">
+                        <div class="menu-card text-center product">
+                            <div class="menu-card-img">
+                                <img src="assets/images/menu_3.png" alt="Product Image" class="d-inline-block">
+                            </div>
+                            <div class="menu-card-content">
+                                <a href="menu.html" class="category-name">Nodles</a>
+                                <div class="product-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
+                                        <span style="width:75%">Rated<strong class="rating">4.00</strong> out of
+                                            5</span>
+                                    </div>(4.00)
+                                </div>
+                                <h3 class="menu-card-title">
+                                    <a href="menu-details.html">Pepperoni Pizza</a>
+                                </h3>
+                                <span class="product-price">$10.55</span>
+                                <div class="product-actions">
+                                    <a data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                                        class="icon-btn popup-content c-pointer">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="cart.html" class="icon-btn">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                    </a>
+                                    <a href="wishlist.html" class="icon-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 filter-item isotope-item" data-type="desserts">
+                        <div class="menu-card text-center product">
+                            <div class="menu-card-img">
+                                <img src="assets/images/menu_7.png" alt="Product Image" class="d-inline-block">
+                            </div>
+                            <div class="menu-card-content">
+                                <a href="menu.html" class="category-name">Kabab</a>
+                                <div class="product-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
+                                        <span style="width:75%">Rated<strong class="rating">4.00</strong> out of
+                                            5</span>
+                                    </div>(4.00)
+                                </div>
+                                <h3 class="menu-card-title">
+                                    <a href="menu-details.html">BBQ Special</a>
+                                </h3>
+                                <span class="product-price">$50.55</span>
+                                <div class="product-actions">
+                                    <a data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                                        class="icon-btn popup-content c-pointer">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="cart.html" class="icon-btn">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                    </a>
+                                    <a href="wishlist.html" class="icon-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 filter-item isotope-item" data-type="desserts">
+                        <div class="menu-card text-center product">
+                            <div class="menu-card-img">
+                                <img src="assets/images/menu_8.png" alt="Product Image" class="d-inline-block">
+                            </div>
+                            <div class="menu-card-content">
+                                <a href="menu.html" class="category-name">Ice Cream</a>
+                                <div class="product-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
+                                        <span style="width:75%">Rated<strong class="rating">4.00</strong> out of
+                                            5</span>
+                                    </div>(4.00)
+                                </div>
+                                <h3 class="menu-card-title">
+                                    <a href="menu-details.html">Spe. Rajama</a>
+                                </h3>
+                                <span class="product-price">$12.20</span>
+                                <div class="product-actions">
+                                    <a data-bs-toggle="modal" data-bs-target="#productDetailModal"
+                                        class="icon-btn popup-content c-pointer">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="cart.html" class="icon-btn">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                    </a>
+                                    <a href="wishlist.html" class="icon-btn">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="text-center mt-5"><a href="menu.html" class="theme-btn">View All Menus</a></div>
+        </div>
+        <div class="popular-assets-leaf position-absolute z-n1 jump-reverse" style="top: 20%; left: 0px;">
+            <img src="assets/images/popular_assets_1.png" alt="assets">
+        </div>
+        <div class="popular-assets-chilli position-absolute z-n1 jump-reverse" style="top: 0%; right: 0px;">
+            <img src="assets/images/popular_assets_2.png" alt="assets">
+        </div>
+        <div class="popular-assets-leaf position-absolute z-n1 jump" style="right: 0px; bottom: 0%;">
+            <img src="assets/images/popular_assets_3.png" alt="assets">
+        </div>
+    </section>
+    <!-- popular menu end -->
+
+
+    <!-- popular menu details start -->
+    <div class="modal fade product-details-modal" id="productDetailModal" tabindex="-1"
+          aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="row">
+                        <div class="col-xl-7 mt-4 mt-xl-0">
+                            <div class="menu-img-container">
+                                <div class="menu-thumb-list">
+                                    <div class="thumb-img-item">
+                                        <img src="assets/images/item_1.png" alt="thumb-img">
+                                    </div>
+                                    <div class="thumb-img-item">
+                                        <img src="assets/images/item_2.png" alt="thumb-img">
+                                    </div>
+                                    <div class="thumb-img-item">
+                                        <img src="assets/images/item_3.png" alt="thumb-img">
+                                    </div>
+                                    <div class="thumb-img-item">
+                                        <img src="assets/images/item_5.png" alt="thumb-img">
+                                    </div>
+                                    <div class="thumb-img-item">
+                                        <img src="assets/images/item_4.png" alt="thumb-img">
+                                    </div>
+                                </div>
+                                <div class="slider-menu-img">
+                                    <div class="menu-img-item">
+                                        <img src="assets/images/menu_1.png" alt="main-img">
+                                    </div>
+                                    <div class="menu-img-item">
+                                        <img src="assets/images/menu_2.png" alt="main-img">
+                                    </div>
+                                    <div class="menu-img-item">
+                                        <img src="assets/images/menu_3.png" alt="main-img">
+                                    </div>
+                                    <div class="menu-img-item">
+                                        <img src="assets/images/menu_7.png" alt="main-img">
+                                    </div>
+                                    <div class="menu-img-item">
+                                        <img src="assets/images/menu_8.png" alt="main-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 mt-4 mt-xl-0">
+                            <div class="product-details">
+                                <div class="product-rating d-flex flex-wrap align-items-center mb-3">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                        <span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5
+                                            based on
+                                            <span class="rating">1</span> customer rating
+                                        </span>
+                                    </div>
+                                    <a href="menu-details.html" class="review-link">
+                                        (<span class="count">3</span> customer reviews)
+                                    </a>
+                                </div>
+                                <h2 class="product-name">Italian Pizza</h2>
+                                <p class="product-price">$180.85<del>$350.99</del></p>
+                                <p class="product-discription">There are numerous versions of the lorem Ipum passages
+                                    that are available; nothing embarrassing. It has long been known
+                                    that a reader will be examining the layout.</p>
+                                <div class="actions">
+                                    <div class="quantity">
+                                        <input type="number" class="qty-input" step="1" min="1" max="100"
+                                            name="quantity" value="1" title="Qty">
+                                        <button class="quantity-plus qty-btn"><i
+                                                class="fa-solid fa-chevron-up"></i></button>
+                                        <button class="quantity-minus qty-btn"><i
+                                                class="fa-solid fa-chevron-down"></i></button>
+                                    </div>
+                                    <button class="theme-btn">Add to Cart</button>
+                                    <a class="icon-btn heart" href="wishlist.html"><i
+                                            class="fa-regular fa-heart"></i></a>
+                                </div>
+                                <div class="product-detail-table">
+                                    <span class="sku-detail">SKU: <span class="sku">B6245</span></span>
+                                    <span class="cate-detail">Category: <a href="menu.html" rel="tag">Burger</a></span>
+                                    <span>Tags: <a href="menu.html">Fast Food</a></span>
+                                </div>
+                                <div class="product-share">
+                                    <p class="product-share-title">
+                                        <i class="fa-solid fa-share"></i> Share
+                                    </p>
+                                    <div class="profuct-social">
+                                        <a target="_blank" href="https://facebook.com/"><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a target="_blank" href="https://twitter.com/"><i
+                                                class="fab fa-twitter"></i></a>
+                                        <a target="_blank" href="https://instagram.com/"><i
+                                                class="fab fa-instagram"></i></a>
+                                        <a target="_blank" href="https://linkedin.com/"><i
+                                                class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- popular menu details end -->
+
+    <!-- offer start -->
+    <section class="section-padding z-2 position-relative  background-image offer-wrap"
+        style="background-image: url('assets/images/offer_bg.jpg');">
+        <div class="container z-2 position-relative">
+            <div class="row">
+                <div class="col-md-1">
+                    <ul class="discount-counter">
+                        <li>
+                            <div class="day count-number">268</div><span class="count-name">Days</span>
+                        </li>
+                        <li>
+                            <div class="hour count-number">05</div><span class="count-name">Hours</span>
+                        </li>
+                        <li>
+                            <div class="minute count-number">56</div><span class="count-name">Min</span>
+                        </li>
+                        <li>
+                            <div class="seconds count-number">41</div><span class="count-name">Sec</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-6 col-lg-7 col-md-9 ps-md-5 offset-xl-1 section-padding pt-0">
+                    <div class="title-wrap position-relative">
+                        <h2 class="title title-font white-color">
+                            Restaurant's delectable burger with fries
+                        </h2>
+                        <p class="sub-text white-color">Progressively deconstruct efficient e-commerce platforms and
+                            empowering techniques.pontificate parallelism quickly.</p>
+                    </div>
+                    <div class="btn-group">
+                        <a href="menu.html" class="theme-btn white-btn">Order now</a>
+                        <h5 class="offer-price">$100 - <del>$200</del></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offer-discount-wrap background-image"
+            style="background-image: url('assets/images/offer_discount_bg.svg');">
+            <p class="small-text1">GET UP TO</p>
+            <h3 class="percentage">50%</h3>
+            <p class="small-text2">OFF NOW</p>
+        </div>
+    </section>
+    <!-- offer end -->
+
+    <!-- best app start -->
+    <section class="section-padding pb-0 z-2 position-relative best-app-wrap">
+        <div class="container z-2 position-relative">
+            <div class="best-app-box background-image" style="background-image: url('assets/images/best_app_bg.png');">
+                <div class="row">
+                    <div class="col-xl-6 col-xxl-5 col-lg-7 col-md-9">
+                        <div class="title-wrap mb-30 position-relative">
+                            <span class="sub-title-wrap">
+                                <img class="title-icon" src="assets/images/title_icon.svg" alt="icon"> Download App
+                            </span>
+                            <h2 class="title title-font">
+                                Now's Best App For Ordering <span class="style-font theme-color">Food</span>
+                            </h2>
+                        </div>
+                        <p class="mt-n2 mb-4">Next-generation systems should be purposefully underwhelmed before
+                            pandemic action items. Reengineer client based
+                            systems in concert.
+                        </p>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://play.google.com/" class="download-btn">
+                                <i class="fa-brands fa-google-play"></i>
+                                <div class="text-group">
+                                    <span class="small-text">Download From</span>
+                                    <h6 class="big-text">Google Play</h6>
+                                </div>
+                            </a>
+                            <a target="_blank" href="https://www.apple.com/store" class="download-btn yellow">
+                                <i class="fa-brands fa-apple"></i>
+                                <div class="text-group">
+                                    <span class="small-text">Download From</span>
+                                    <h6 class="big-text">App Store</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popular-assets-leaf z-1 position-absolute jump-reverse" style="top: 30%; left: 5%;">
+            <img src="assets/images/popular_assets_5.png" alt="assets">
+        </div>
+        <div class="popular-assets-leaf z-1 position-absolute jump" style="right: 0px; bottom: 0%;">
+            <img src="assets/images/popular_assets_3.png" alt="assets">
+        </div>
+    </section>
+    <!-- best app end -->
+
+    <!-- our chef start -->
+    <section class="section-padding pb-0 our-chef-wrap">
+        <div class="container">
+            <div class="title-wrap position-relative text-center">
+                <span class="sub-title-wrap">
+                    <img class="title-icon" src="assets/images/title_icon.svg" alt="icon"> Team Members
+                </span>
+                <h2 class="title title-font">
+                    Discover Our Former <span class="style-font theme-color">Chefs</span>
+                </h2>
+                <p class="sub-text ms-auto me-auto">Prioritize high-quality models over intuitive knowledge.
+                    Recaptiualize multifunctional materials dramatically.</p>
+            </div>
+            <div class="slider-wrapper">
+                <div class="our-menu-slider number-dots">
+                    <div class="slick-item">
+                        <div class="chef-card">
+                            <div class="chef-img">
+                                <img src="assets/images/chef_1.jpg" alt="chef">
+                            </div>
+                            <div class="chef-details">
+                                <h3 class="chef-title">
+                                    <a href="chef-details.html" tabindex="-1">William Johnson</a>
+                                </h3>
+                                <span class="chef-designation">Chief Executive</span>
+                                <div class="chef-social">
+                                    <a target="_blank" href="https://facebook.com/" tabindex="-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a target="_blank" href="https://twitter.com/" tabindex="-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a target="_blank" href="https://instagram.com/" tabindex="-1">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a target="_blank" href="https://linkedin.com/" tabindex="-1">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="chef-card">
+                            <div class="chef-img">
+                                <img src="assets/images/chef_2.jpg" alt="chef">
+                            </div>
+                            <div class="chef-details">
+                                <h3 class="chef-title">
+                                    <a href="chef-details.html" tabindex="-1">Sophia Miller</a>
+                                </h3>
+                                <span class="chef-designation">Senior Chef</span>
+                                <div class="chef-social">
+                                    <a target="_blank" href="https://facebook.com/" tabindex="-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a target="_blank" href="https://twitter.com/" tabindex="-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a target="_blank" href="https://instagram.com/" tabindex="-1">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a target="_blank" href="https://linkedin.com/" tabindex="-1">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="chef-card">
+                            <div class="chef-img">
+                                <img src="assets/images/chef_3.jpg" alt="chef">
+                            </div>
+                            <div class="chef-details">
+                                <h3 class="chef-title">
+                                    <a href="chef-details.html" tabindex="-1">Theodore Jones</a>
+                                </h3>
+                                <span class="chef-designation">Senior Chef</span>
+                                <div class="chef-social">
+                                    <a target="_blank" href="https://facebook.com/" tabindex="-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a target="_blank" href="https://twitter.com/" tabindex="-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a target="_blank" href="https://instagram.com/" tabindex="-1">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a target="_blank" href="https://linkedin.com/" tabindex="-1">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="chef-card">
+                            <div class="chef-img">
+                                <img src="assets/images/chef_4.jpg" alt="chef">
+                            </div>
+                            <div class="chef-details">
+                                <h3 class="chef-title">
+                                    <a href="chef-details.html" tabindex="-1">Anjeline Rosee</a>
+                                </h3>
+                                <span class="chef-designation">Senior Chef</span>
+                                <div class="chef-social">
+                                    <a target="_blank" href="https://facebook.com/" tabindex="-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a target="_blank" href="https://twitter.com/" tabindex="-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a target="_blank" href="https://instagram.com/" tabindex="-1">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a target="_blank" href="https://linkedin.com/" tabindex="-1">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="chef-card">
+                            <div class="chef-img">
+                                <img src="assets/images/chef_5.jpg" alt="chef">
+                            </div>
+                            <div class="chef-details">
+                                <h3 class="chef-title">
+                                    <a href="chef-details.html" tabindex="-1">Ava Garcia</a>
+                                </h3>
+                                <span class="chef-designation">Senior Chef</span>
+                                <div class="chef-social">
+                                    <a target="_blank" href="https://facebook.com/" tabindex="-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a target="_blank" href="https://twitter.com/" tabindex="-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a target="_blank" href="https://instagram.com/" tabindex="-1">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a target="_blank" href="https://linkedin.com/" tabindex="-1">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our chef end -->
+
+    <!-- feedback start -->
+    <section class="section-padding position-relative feedback-wrap"
+        style="background-image: url('assets/images/testimonial_bg.png');">
+        <div class="container z-2 position-relative">
+            <div class="row mb-4 justify-content-lg-between justify-content-center align-items-end">
+                <div class="col-lg-9 mb-n2 mb-lg-0">
+                    <div class="title-wrap position-relative text-center text-lg-start">
+                        <span class="sub-title-wrap">
+                            <img class="title-icon" src="assets/images/title_icon.svg" alt="icon"> Testimonials
+                        </span>
+                        <h2 class="title title-font">
+                            Our Customar <span class="style-font theme-color">Feedbacks</span>
+                        </h2>
+                        <p class="sub-text mx-auto mx-lg-0">Prioritize high-quality models over intuitive knowledge.
+                            Recaptiualize multifunctional materials dramatically.</p>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="btn-group slick-btn feedback-btn">
+                        <button class="slick-arrow previousFeedback">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button class="slick-arrow nextFeedback">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="slider-wrapper">
+                <div class="feedback-slider">
+                    <div class="feedback-card slick-item">
+                        <div class="feedback-icon">
+                            <img src="assets/images/quote.svg" alt="quote">
+                        </div>
+                        <p class="feedback-text">
+                            “Next-generation systems should be purposefully underwhelmed before pandemic action items.
+                            Reengineer client based
+                            systems in concert.”
+                        </p>
+                        <div class="feedback-review">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                        <div class="feedback-profile">
+                            <div class="feedback-avater">
+                                <img src="assets/images/feedback_1.jpg" alt="Avater">
+                            </div>
+                            <div class="feedback-user">
+                                <h3 class="feedback-user-name">Noah Clark</h3>
+                                <span class="feedback-user-desig">NY, USA</span>
+                            </div>
+                        </div>
+                        <div class="feedback-img">
+                            <img src="assets/images/feedback_img_1.png" alt="Image">
+                        </div>
+                    </div>
+                    <div class="feedback-card slick-item">
+                        <div class="feedback-icon">
+                            <img src="assets/images/quote.svg" alt="quote">
+                        </div>
+                        <p class="feedback-text">
+                            “Next-generation systems should be purposefully underwhelmed before pandemic action items.
+                            Reengineer client based
+                            systems in concert.”
+                        </p>
+                        <div class="feedback-review">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                        <div class="feedback-profile">
+                            <div class="feedback-avater">
+                                <img src="assets/images/feedback_2.jpg" alt="Avater">
+                            </div>
+                            <div class="feedback-user">
+                                <h3 class="feedback-user-name">Henry Corso</h3>
+                                <span class="feedback-user-desig">NJ, USA</span>
+                            </div>
+                        </div>
+                        <div class="feedback-img">
+                            <img src="assets/images/feedback_img_2.png" alt="Image">
+                        </div>
+                    </div>
+                    <div class="feedback-card slick-item">
+                        <div class="feedback-icon">
+                            <img src="assets/images/quote.svg" alt="quote">
+                        </div>
+                        <p class="feedback-text">
+                            “Next-generation systems should be purposefully underwhelmed before pandemic action items.
+                            Reengineer client based
+                            systems in concert.”
+                        </p>
+                        <div class="feedback-review">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                        <div class="feedback-profile">
+                            <div class="feedback-avater">
+                                <img src="assets/images/feedback_3.jpg" alt="Avater">
+                            </div>
+                            <div class="feedback-user">
+                                <h3 class="feedback-user-name">Amelia Nion</h3>
+                                <span class="feedback-user-desig">NJ, USA</span>
+                            </div>
+                        </div>
+                        <div class="feedback-img">
+                            <img src="assets/images/feedback_img_3.png" alt="Image">
+                        </div>
+                    </div>
+                    <div class="feedback-card slick-item">
+                        <div class="feedback-icon">
+                            <img src="assets/images/quote.svg" alt="quote">
+                        </div>
+                        <p class="feedback-text">
+                            “Next-generation systems should be purposefully underwhelmed before pandemic action items.
+                            Reengineer client based
+                            systems in concert.”
+                        </p>
+                        <div class="feedback-review">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                        <div class="feedback-profile">
+                            <div class="feedback-avater">
+                                <img src="assets/images/feedback_4.jpg" alt="Avater">
+                            </div>
+                            <div class="feedback-user">
+                                <h3 class="feedback-user-name">Reza Emlin</h3>
+                                <span class="feedback-user-desig">NJ, USA</span>
+                            </div>
+                        </div>
+                        <div class="feedback-img">
+                            <img src="assets/images/feedback_img_4.png" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popular-assets-leaf position-absolute jump-reverse" style="top: 20%; left: 0px;">
+            <img src="assets/images/popular_assets_1.png" alt="assets">
+        </div>
+        <div class="popular-assets-chilli position-absolute jump-reverse" style="top: 0%; right: 0px;">
+            <img src="assets/images/popular_assets_2.png" alt="assets">
+        </div>
+        <div class="popular-assets-leaf position-absolute jump" style="right: 0px; bottom: 0%;">
+            <img src="assets/images/popular_assets_3.png" alt="assets">
+        </div>
+    </section>
+    <!-- feedback end -->
+
+    <!-- blog start -->
+    <section class="section-padding position-relative blogs-wrap">
+        <div class="container">
+            <div class="title-wrap position-relative text-center">
+                <span class="sub-title-wrap">
+                    <img class="title-icon" src="assets/images/title_icon.svg" alt="icon"> News & Blog
+                </span>
+                <h2 class="title title-font">
+                    Our Most Recent Food <span class="style-font theme-color">News</span>
+                </h2>
+                <p class="sub-text ms-auto me-auto">Prioritize high-quality models over intuitive knowledge.
+                    Recaptiualize multifunctional materials dramatically.</p>
+            </div>
+            <div class="position-relative">
+                <div class="slick-btn">
+                    <button class="slick-arrow previousBlog">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <button class="slick-arrow nextBlog">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="slider-wrapper">
+                    <div class="blog-slider">
+                        <div class="blog-card my-4 slick-item">
+                            <div class="blog-img">
+                                <img src="assets/images/blog_1.jpg" alt="blog image">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-details">
+                                    <a href="blog.html" tabindex="-1"><i class="fa-solid fa-user"></i>By Foodify</a>
+                                    <a href="blog.html" tabindex="-1"><i class="fa-regular fa-calendar-days"></i>21
+                                        Now,
+                                        2022</a>
+                                    <a href="blog.html" tabindex="-1"><i class="fa-solid fa-tag"></i>Burger</a>
+                                </div>
+                                <h3 class="blog-title">
+                                    <a href="blog-details.html" tabindex="-1">Star Spangled Batter</a>
+                                </h3>
+                                <div class="blog-bottom">
+                                    <a href="blog-details.html" class="read-more-btn" tabindex="-1">Read More</a>
+                                    <a href="blog-details.html" class="comment" tabindex="-1">
+                                        <i class="fa-solid fa-comments"></i> 3 Comments
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-card my-4 slick-item">
+                            <div class="blog-img">
+                                <img src="assets/images/blog_2.jpg" alt="blog image">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-details">
+                                    <a href="blog.html" tabindex="-1"><i class="fa-solid fa-user"></i>By Foodify</a>
+                                    <a href="blog.html" tabindex="-1"><i class="fa-regular fa-calendar-days"></i>30
+                                        Now,
+                                        2022</a>
+                                    <a href="blog.html" tabindex="-1"><i class="fa-solid fa-tag"></i>Chicken</a>
+                                </div>
+                                <h3 class="blog-title">
+                                    <a href="blog-details.html" tabindex="-1">For The Love Of Food</a>
+                                </h3>
+                                <div class="blog-bottom">
+                                    <a href="blog-details.html" class="read-more-btn" tabindex="-1">Read More</a>
+                                    <a href="blog-details.html" class="comment" tabindex="-1">
+                                        <i class="fa-solid fa-comments"></i> 3 Comments
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-card my-4 slick-item">
+                            <div class="blog-img">
+                                <img src="assets/images/blog_3.jpg" alt="blog image">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-details">
+                                    <a href="blog.html" tabindex="-1"><i class="fa-solid fa-user"></i>By Foodify</a>
+                                    <a href="blog.html" tabindex="-1"><i class="fa-regular fa-calendar-days"></i>3
+                                        Dec,
+                                        2022</a>
+                                    <a href="blog.html" tabindex="-1"><i class="fa-solid fa-tag"></i>Mutton</a>
+                                </div>
+                                <h3 class="blog-title">
+                                    <a href="blog-details.html" tabindex="-1">The Happy Chopsticks</a>
+                                </h3>
+                                <div class="blog-bottom">
+                                    <a href="blog-details.html" class="read-more-btn" tabindex="-1">Read More</a>
+                                    <a href="blog-details.html" class="comment" tabindex="-1">
+                                        <i class="fa-solid fa-comments"></i> 3 Comments
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-card my-4 slick-item">
+                            <div class="blog-img">
+                                <img src="assets/images/blog_4.jpg" alt="blog image">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-details">
+                                    <a href="blog.html" tabindex="-1"><i class="fa-solid fa-user"></i>By Foodify</a>
+                                    <a href="blog.html" tabindex="-1"><i class="fa-regular fa-calendar-days"></i>6
+                                        Dec,
+                                        2022</a>
+                                    <a href="blog.html" tabindex="-1"><i class="fa-solid fa-tag"></i>Burger</a>
+                                </div>
+                                <h3 class="blog-title">
+                                    <a href="blog-details.html" tabindex="-1">Tasty Table Delights</a>
+                                </h3>
+                                <div class="blog-bottom">
+                                    <a href="blog-details.html" class="read-more-btn" tabindex="-1">Read More</a>
+                                    <a href="blog-details.html" class="comment" tabindex="-1">
+                                        <i class="fa-solid fa-comments"></i> 3 Comments
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popular-assets-leaf position-absolute z-n1 jump-reverse" style="bottom: 0%; left: 0px;">
+            <img src="assets/images/popular_assets_1.png" alt="assets">
+        </div>
+        <div class="popular-assets-leaf position-absolute z-n1 jump" style="right: 0px; bottom: 20%;">
+            <img src="assets/images/popular_assets_4.png" alt="assets">
+        </div>
+    </section>
+    <!--blog end -->
+
+    <!-- footer start -->
+    <footer class="footer-wrapper position-relative z-2">
+        <div class="container">
+            <div class="footer-top">
+                <div class="row align-items-center">
+                    <div class="col-xl-3 mb-4 mb-lg-3">
+                        <div class="footer-logo"><a href="index.html"><img src="assets/images/logo-white.svg"
+                                    alt="footer-logo"></a></div>
+                    </div>
+                    <div class="col-xl-9">
+                        <div class="subscribe-wrapper">
+                            <div>
+                                <h2 class="subscribe-title">Subscription News</h2>
+                                <p class="subscribe-text">Subscribe to the weekly newsletter for latest updates.</p>
+                            </div>
+                            <form class="newsletter-form"><input class="form-control white" type="email"
+                                    placeholder="Enter Email Address" required="">
+                                <button type="submit" class="theme-btn white">SUBCRIBE<i
+                                        class="fas fa-arrow-right ms-2"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="main-footer">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 col-xl-3 mb-4 mb-md-3 mb-lg-0">
+                        <div class="widget footer-widget">
+                            <h3 class="title-main">About Restaurant</h3>
+                            <div class="about-box">
+                                <p class="about-text white-color">Quickly supply alternative strategic theme areas
+                                    vis-a-vis B2C
+                                    mindshare.
+                                    Objectively repurpose stand-alone synergy via user-centric architectures.</p>
+                                <div class="social-box"><a href="https://www.facebook.com/"><i
+                                            class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i
+                                            class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i
+                                            class="fab fa-linkedin-in"></i></a> <a href="https://www.whatsapp.com/"><i
+                                            class="fab fa-whatsapp"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto mb-4 mb-md-3 mb-lg-0">
+                        <div class="widget footer-menu footer-widget">
+                            <h3 class="title-main">Quick Links</h3>
+                            <ul class="menu">
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="menu.html">Menu</a></li>
+                                <li><a href="testimonial.html">Testimonial</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto mb-4 mb-md-3 mb-lg-0">
+                        <div class="widget footer-menu footer-widget">
+                            <h3 class="title-main">Other Pages</h3>
+                            <ul class="menu">
+                                <li><a href="chef.html">Our Chef</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="cart.html">Cart</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="wishlist.html">Wishlist</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto">
+                        <div class="widget footer-widget">
+                            <h3 class="title-main">Contact Now</h3>
+                            <div class="contact-box">
+                                <div class="info-box">
+                                    <div class="info-box-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                    <p class="info-box-text"><a href="#">H-307, Shreedhar Flora, Ahmedabad, Gujarat
+                                            382350</a>
+                                    </p>
+                                </div>
+                                <div class="info-box">
+                                    <div class="info-box-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                                    <p class="info-box-text"><a href="tel:+1234567890">+(1) 123
+                                            456 7890</a> <a href="tel:+1234567890">+(1) 123 456
+                                            7890</a></p>
+                                </div>
+                                <div class="info-box">
+                                    <div class="info-box-icon"><i class="fa-regular fa-envelope"></i></div>
+                                    <p class="info-box-text"><a
+                                            href="mailto:info1.example@gmail.com">info1.example@gmail.com</a>
+                                        <a href="mailto:info2.example@gmail.com">info2.example@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-wrap">
+            <div class="container">
+
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                        <p class="copyright-text white-color">Copyright <i class="fa-regular fa-copyright"></i> 2022 <a
+                                href="https://www.srashtasoft.com/">SrashtaSoft</a>. All Rights
+                            Reserved.</p>
+                    </div>
+                    <div class="col-lg-6 text-end d-none d-lg-block">
+                        <div class="footer-links">
+                            <ul>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms &amp; Condition</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- scroll top start -->
+    <a href="#" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></a>
+    <!-- scroll top end -->
+
+    <!-- mini cart start -->
+    <div class="offcanvas offcanvas-end cart-sidemenu-wrapper" tabindex="-1" id="cart-sidebar"
+          >
+        <div class="offcanvas-header d-flex align-items-center">
+            <h5 class="mb-0">Shopping cart</h5>
+            <button type="button" class="closeButton" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="mini-cart">
+                <li class="mini-cart-item">
+                    <a href="#" class="remove-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <a href="#" class="item-name">
+                        <img src="assets/images/item_1.png" alt="Item">Egg toast
+                    </a>
+                    <span class="quantity">
+                        1 × <span class="price"><span class="price-currency">$</span>55.00</span>
+                    </span>
+                </li>
+                <li class="mini-cart-item">
+                    <a href="#" class="remove-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <a href="#" class="item-name">
+                        <img src="assets/images/item_2.png" alt="Cart Image">Delicious Salad
+                    </a>
+                    <span class="quantity">
+                        1 × <span class="price"><span class="price-currency">$</span>40.00</span>
+                    </span>
+                </li>
+                <li class="mini-cart-item">
+                    <a href="#" class="remove-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <a href="#" class="item-name">
+                        <img src="assets/images/item_3.png" alt="Cart Image">Pepperoni Pizza
+                    </a>
+                    <span class="quantity">
+                        1 × <span class="price"><span class="price-currency">$</span>30.00</span>
+                    </span>
+                </li>
+                <li class="mini-cart-item">
+                    <a href="#" class="remove-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <a href="#" class="item-name">
+                        <img src="assets/images/item_4.png" alt="Cart Image">Spe. Rajma
+                    </a>
+                    <span class="quantity">
+                        1 × <span class="price"><span class="price-currency">$</span>25.00</span>
+                    </span>
+                </li>
+                <li class="mini-cart-item">
+                    <a href="#" class="remove-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <a href="#" class="item-name">
+                        <img src="assets/images/item_5.png" alt="Cart Image">BBQ Special
+                    </a>
+                    <span class="quantity">
+                        1 × <span class="price"><span class="price-currency">$</span>100.00</span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="offcanvas-footer p-3">
+            <p class="total-text"><b>Subtotal:</b> $250</p>
+            <div class="row">
+                <div class="col-6">
+                      <a href="cart.html" class="theme-btn w-100">VIEW CART</a>
+                </div>
+                <div class="col-6">
+                    <a href="checkout.html" class="theme-btn w-100">CHECKOUT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- mini cart end -->
+
+    <!-- search container start -->
+    <div class="popup-search-box d-none d-lg-block" id="popup-search">
+        <button class="search-close search_btn">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <form action="#">
+            <input type="text" placeholder="What are you looking for?">
+            <button type="submit" class="search_btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+    </div>
+    <!-- search container end -->
+
+    <!-- loader start -->
+    <div class="loader-section">
+        <span class="loader">
+            <span></span>
+            <span></span>
+        </span>
+    </div>
+    <!-- loader end -->
+
+    <!-- bootstrap 5.0.2 - js -->
+    <script src="assets/vendor/bootstrap_5.0.2/js/bootstrap.min.js"></script>
+
+    <!-- jquery-3.6.1 -->
+    <script src="assets/vendor/jquery_3.6.1/jquery_3.6.1.min.js"></script>
+
+    <!-- jquery isotope-3.0.6 -->
+    <script src="assets/vendor/jquery_isotope/isotope_docs.min.js"></script>
+
+    <!-- slick -->
+    <script src="assets/vendor/slick_1.8.1/slick.min.js"></script>
+    <script src="assets/vendor/slick_1.8.1/slick_animation.js"></script>
+
+    <!-- header js -->
+    <script src="assets/js/header.js"></script>
+
+    <!-- skider js -->
+    <script src="assets/js/slider.js"></script>
+
+    <!-- theme js -->
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>

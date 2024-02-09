@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodify - Blog Details</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/fav.png">
+
+    <!-- bootstrap 5.0.2 - css -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap_5.0.2/css/bootstrap.min.css">
+
+    <!-- slick slider - css -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/slick_1.8.1/slick.css">
+
+    <!-- animation - css -->
+    <link rel="stylesheet" href="assets/vendor/animation_css/animate.min.css">
+
+    <!-- theme css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- icons -->
+    <script src="assets/vendor/font_awsome_6.2.1/fontawsome_6.2.1.js"></script>
+
+</head>
+
+<body>
+
+    <!-- header start -->
+
+    <header class="header-wrapper z-30 w-100">
+        <div class="header-top" id="top-header">
+            <div class="container-fluid">
+                <div class="header-content">
+                    <div class="row justify-content-center justify-content-md-between align-items-center">
+                        <div class="col-auto d-none d-md-block">
+                            <p class="white-color">We're glad you're here, Foodify Welcomes you.</p>
+                        </div>
+                        <div class="col-auto">
+                            <div class="header-links">
+                                <ul>
+                                    <li>
+                                        <div class="header-social">
+                                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </li>
+                                    <li><i class="far fa-user"></i> <a href="#">Login</a> / <a href="#">Register</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-auto">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="logo"><a href="index.html"><img src="assets/images/logo.svg" alt="logo"></a>
+                            </div>
+                            <a href="javascript:void(0)"
+                                class="menu_btn navbar-toggler f-flex align-items-center justify-content-center d-lg-none">
+                                <i class="fa-solid fa-bars"></i>
+                            </a>
+
+                            <a class="overlay-header z-25 menu_btn" href="javascript:void(0)"></a>
+                            <nav class="main-menu">
+                                <div class="logo-sidemenu d-block d-lg-none z-2"><a href="index.html"><img
+                                            src="assets/images/logo.svg" alt="logo"></a>
+                                </div>
+                                <a href="javascript:void(0)"
+                                    class="menu_btn sidemenu-close d-flex align-items-center justify-content-center d-lg-none">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </a>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about-us.html">About Us</a></li>
+                                    <li class="menu-item-has-children"><a href="javascript:void(0);">Menu</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="menu.html">Menu List</a></li>
+                                            <li><a href="menu-details.html">Menu Detail</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children"><a href="javascript:void(0);">Page</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="chef.html">Our Chef</a></li>
+                                            <li><a href="chef-details.html">Chef Details</a></li>
+                                            <li><a href="faq.html">FAQ</a></li>
+                                            <li><a href="testimonial.html">Testimonial</a></li>
+                                            <li><a href="cart.html">Cart</a></li>
+                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                            <li><a href="error.html">Error</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children"><a href="javascript:void(0);">Blog</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog-details.html" class="active">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-auto d-none d-lg-block px-2">
+                        <div class="header-button">
+                            <button type="button" class="icon-btn search_btn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <button type="button" class="icon-btn" data-bs-toggle="offcanvas"
+                                data-bs-target="#cart-sidebar" aria-controls="cart-sidebar">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="badge">5</span>
+                            </button>
+                            <a href="contact-us.html" class="theme-btn">BOOK YOUR SEAT</a>
+                            <div class="link-box">
+                                <div class="link-box_icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                <div>
+                                    <p class="link-box_text">Call Anytime 24/7</p><a href="+1234567890"
+                                        class="link-box_link">+(1) 123
+                                        456 7890</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- page header start -->
+    <div class="page-header-wrapper background-image"
+        style="background-image: url('assets/images/page_header_bg.jpg');">
+        <div class="container z-3">
+            <div class="page-header-content">
+                <h1 class="page-header-title">Blog <span class="style-font yellow-color">Details</span></h1>
+                <ul class="breadcumb-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li>Blog Details</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- page header end -->
+
+    <!-- blog details start -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-8 col-lg-7">
+                    <div class="theme-card blog-item">
+                        <a href="blog-details.html">
+                            <div class="blog-img">
+                                <img src="assets/images/blog_list_4.jpeg" alt="Blog">
+                            </div>
+                        </a>
+                        <div class="blog-content">
+                            <div class="blog-details">
+                                <a href="blog.html">
+                                    <i class="fa-solid fa-user"></i> By Pizzer
+                                </a>
+                                <a href="blog.html">
+                                    <i class="fa-regular fa-calendar-days"></i> 30 Nov, 2022
+                                </a>
+                                <a href="blog-details.html">
+                                    <i class="fa-solid fa-comment"></i> Comments(3)
+                                </a>
+                                <a href="blog.html">
+                                    <i class="fa-solid fa-tag"></i> Chicken
+                                </a>
+                            </div>
+                            <h2 class="blog-title">
+                                For The Love OF Food
+                            </h2>
+                            <p class="blog-text">
+                                With just in time web preparedness service, quickly repurpose cutting-edge growth
+                                techniques. Communicate objectively
+                                and in a timely manner meta services for functional synergistic initiatives
+                            </p>
+                            <p class="blog-text">Prioritize developing experiences over newer content. After B2C
+                                synergy, effectively underwhelm customer-directed total
+                                linkage. Excellent human resources should be dynamically simplified in favour of
+                                effective infrastructures. produce
+                                e-business web-readiness following wireless outsourcing with authority. Evisculate
+                                imaginative scenarios with ease to
+                                maximise resource use and mindshare.</p>
+                            <p class="blog-text">
+                                Recaptiualize interdependent alignments with assertive backend leadership abilities.
+                                Monotonectally create proactive
+                                infomediaries and targeted quality vectors. Use ethical projects energetically but
+                                without practical implementation.
+                                Coordinate authoritatively user-friendly information and seamless e-services.
+                                Interactively begin best practises before
+                                e-business knowledge.
+                            </p>
+                            <div class="blockquote">
+                                <p>Whiteboard enterprise-wide vortals continuously while using top-notch resources.
+                                    swiftly advertise team-building
+                                    services through functional users.</p>
+                                <div class="author-name">Davis White</div>
+                            </div>
+                            <p class="blog-text">
+                                Integrally integrate channels focused on the client with communities that adhere to
+                                standards. Open-source data can be
+                                seamlessly reimagined using brick-and-click bandwidth. Utilize low-cost technologies
+                                from other countries in order to
+                                create user-friendly solutions. aggressively seek outsourcing with large returns using
+                                sustainable web readiness.
+                                Benchmark ideal resources with authority using parallel knowledge.
+                            <p class="blog-text">
+                            <p>Utilize open-source synergy in an original way without relying on functionality.
+                                Open-source e-tailers should
+                                objectively take precedence over click-and-mortar best practises. Recaptiualize highly
+                                effective outsourcing with a
+                                focus on modern web readiness. Client-based e-markets should be communicated quickly
+                                before end-to-end procedures. After
+                                best-of-breed convergence, implement innovative infrastructures globally.</p>
+                            <h2 class="blog-title">
+                                The only theme you will ever require is Foodify.
+                            </h2>
+                            <p class="blog-text">
+                                Phosfluorescently incubate market-driven networks and synergistic e-services.
+                                Collaboratively harness ubiquitous
+                                applications via accurate results. Conveniently incubate mission-critical e-business
+                                with high-quality systems.
+                                Interactively provide access to open-source e-business without compelling e-markets.
+                                Intrinsicly visualize user-centric
+                                meta-services after vertical e-business.
+                            </p>
+                            <div class="blog-img">
+                                <a href="#" class="play-btn popup-video blog-play-btn"><i class="fas fa-play"
+                                        aria-hidden="true"></i></a>
+                                <img src="assets/images/blog_list_4.jpeg" alt="Blog">
+                            </div>
+                            <p class="blog-text">
+                                Develop market-driven networks and collaborative e-services fluorescently. Utilize
+                                widespread applications in concert
+                                with precise outcomes. High-quality systems can be used to conveniently incubate
+                                mission-critical e-business. Access
+                                open-source e-business interactively without pressuring e-markets. User-centric
+                                meta-services following vertical
+                                e-business are intrinsically envisioned.
+                            </p>
+                            <p class="blog-text">
+                                Before team building users, establish universal growth tactics globally. radically alter
+                                reliable internal or "organic"
+                                sources to produce cost-effective e-services. Utilize intermandated convergence to
+                                authoritatively enact
+                                performance-based customer service. Visualize complex technology following seamless
+                                paradigms for convenience. Without
+                                cutting-edge leadership abilities, the world cannot establish state-of-the-art
+                                e-business.
+                            </p>
+                            <div class="blog-share-links">
+                                <div class="row justify-content-between">
+                                    <div class="col-sm-auto d-flex flex-wrap align-items-center mt-2">
+                                        <span class="share-links-title">Tags:</span>
+                                        <div class="filter-tags">
+                                            <a href="blog.html" class="mb-0">Fast Food</a>
+                                            <a href="blog.html" class="mb-0">Dinner</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-auto text-xl-end mt-2">
+                                        <span class="share-links-title">Share:</span>
+                                        <ul class="blog-social-links">
+                                            <li>
+                                                <a href="https://facebook.com/" target="_blank">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://twitter.com/" target="_blank">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://linkedin.com/" target="_blank">
+                                                    <i class="fab fa-linkedin-in"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://instagram.com/" target="_blank">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="theme-card blog-comment-wrap blog-item">
+                        <div class="form-title mb-4">
+                            <h4 class="form-inner-title mb-0"><i class="fa-solid fa-comment"></i> Comments (03)</h4>
+                        </div>
+                        <div class="comment-list-wrap">
+                            <ul class="comment-list">
+                                <li class="comment-item">
+                                    <div class="comment-details">
+                                        <div class="comment-avater">
+                                            <img src="assets/images/comment-author-1.jpg" alt="Comment Author">
+                                        </div>
+                                        <div class="comment-content">
+                                            <span class="comment-date">
+                                                <i class="fa-regular fa-calendar-days"></i> 20 Dec, 2022
+                                            </span>
+                                            <h3 class="comment-name">Vicente Perez</h3>
+                                            <p class="comment-text">“Next-generation systems should be purposefully underwhelmed before pandemic action items. Reengineer client based
+                                            systems in concert.”</p>
+                                            <div class="comment-replay">
+                                                <a href="blog-details.html" class="comment-reply-btn">
+                                                    <i class="fas fa-reply"></i> Reply
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="comment-children">
+                                        <li class="comment-item">
+                                            <div class="comment-details">
+                                                <div class="comment-avater">
+                                                    <img src="assets/images/comment-author-2.jpg" alt="Comment Author">
+                                                </div>
+                                                <div class="comment-content">
+                                                    <span class="comment-date">
+                                                        <i class="fa-regular fa-calendar-days"></i> 21 Dec, 2022
+                                                    </span>
+                                                    <h3 class="comment-name">Leon Allen</h3>
+                                                    <p class="comment-text">“Next-generation systems should be purposefully underwhelmed before pandemic action items. Reengineer client based
+                                                    systems in concert.”</p>
+                                                    <div class="comment-replay">
+                                                        <a href="blog-details.html" class="reply-btn">
+                                                            <i class="fas fa-reply"></i> Reply
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="comment-item">
+                                    <div class="comment-details">
+                                        <div class="comment-avater">
+                                            <img src="assets/images/comment-author-3.jpg" alt="Comment Author">
+                                        </div>
+                                        <div class="comment-content">
+                                            <span class="comment-date">
+                                                <i class="fa-regular fa-calendar-days"></i> 22 Dec, 2022
+                                            </span>
+                                            <h3 class="comment-name">Jonas Gomez</h3>
+                                            <p class="comment-text">“Next-generation systems should be purposefully underwhelmed before pandemic action items. Reengineer client based
+                                            systems in concert.”</p>
+                                            <div class="comment-replay">
+                                                <a href="blog-details.html" class="comment-reply-btn">
+                                                    <i class="fas fa-reply"></i> Reply
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="theme-card blog-comment-wrap blog-item">
+
+                        <div class="form-title mb-4">
+                            <h4 class="form-inner-title mb-0"><i class="fa-solid fa-reply"></i> Leave a Comment</h4>
+                            <p>Your email address will not be published. Required fields are marked *</p>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Your Name*" class="form-control">
+                                    <i class="fa-regular fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" placeholder="Your Email*" class="form-control">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Website" class="form-control">
+                                    <i class="fa-solid fa-globe"></i>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea placeholder="Write a Comment*" class="form-control"></textarea>
+                                    <i class="fa-solid fa-pencil"></i>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="theme-btn">Post Comment</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-lg-5">
+                    <div class="theme-card blog-filter-card">
+                        <form class="search-form position-relative">
+                            <input type="text" placeholder="Search...">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                    <div class="theme-card blog-filter-card">
+                        <h3 class="filter-card-title">Categories</h3>
+                        <ul class="category-list">
+                            <li>
+                                <img class="icon" src="assets/images/category_3.svg" alt="icon">
+                                <a href="blog.html">Combo</a>
+                                <span>12</span>
+                            </li>
+                            <li>
+                                <img class="icon" src="assets/images/category_1.svg" alt="icon">
+                                <a href="blog.html">Burger</a>
+                                <span>5</span>
+                            </li>
+                            <li>
+                                <img class="icon" src="assets/images/category_4.svg" alt="icon">
+                                <a href="blog.html">Chicken</a>
+                                <span>18</span>
+                            </li>
+                            <li>
+                                <img class="icon" src="assets/images/category_2.svg" alt="icon">
+                                <a href="blog.html">Pizza</a>
+                                <span>14</span>
+                            </li>
+
+
+                            <li>
+                                <img class="icon" src="assets/images/category_5.svg" alt="icon">
+                                <a href="blog.html">Drinks</a>
+                                <span>08</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="theme-card blog-filter-card">
+                        <div class="author-wrap">
+                            <div class="author-avater">
+                                <img src="assets/images/author_1.jpg" alt="avater">
+                            </div>
+                            <div class="author-info">
+                                <h4 class="author-name"><a href="blog.html">Davis White</a></h4>
+                            </div>
+                            <p class="author-bio">
+                                Dynamically embrace expertise in team building. proactive monetization of supplementary
+                                solutions
+                            </p>
+                            <div class="author-social">
+                                <a href="https://facebook.com">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://twitter.com">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://pinterest.com">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                                <a href="https://linkedin.com">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="theme-card blog-filter-card">
+                        <h3 class="filter-card-title">Recent Posts</h3>
+                        <div class="recent-post-wrap">
+                            <div class="recent-post-item">
+                                <div class="recent-post-img">
+                                    <a href="blog-details.html">
+                                        <img src="assets/images/recent_post_1.jpg" alt="Blog Image">
+                                    </a>
+                                </div>
+                                <div class="recent-post-body">
+                                    <h4 class="recent-post-title">
+                                        <a href="blog-details.html">
+                                            The Happy Chopsticks
+                                        </a>
+                                    </h4>
+                                    <div class="recent-post-date">
+                                        <a href="blog.html">
+                                            <i class="fa-regular fa-calendar-days"></i> 6 Dec, 2022
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recent-post-item">
+                                <div class="recent-post-img">
+                                    <a href="blog-details.html">
+                                        <img src="assets/images/recent_post_2.jpg" alt="Blog Image">
+                                    </a>
+                                </div>
+                                <div class="recent-post-body">
+                                    <h4 class="recent-post-title">
+                                        <a href="blog-details.html">
+                                            Tasty Table Delights
+                                        </a>
+                                    </h4>
+                                    <div class="recent-post-date">
+                                        <a href="blog.html">
+                                            <i class="fa-regular fa-calendar-days"></i> 3 Dec, 2022
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recent-post-item">
+                                <div class="recent-post-img">
+                                    <a href="blog-details.html">
+                                        <img src="assets/images/recent_post_3.jpg" alt="Blog Image">
+                                    </a>
+                                </div>
+                                <div class="recent-post-body">
+                                    <h4 class="recent-post-title">
+                                        <a href="blog-details.html">
+                                            Star Spangled Batter
+                                        </a>
+                                    </h4>
+                                    <div class="recent-post-date">
+                                        <a href="blog.html">
+                                            <i class="fa-regular fa-calendar-days"></i> 21 Dec, 2022
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="theme-card blog-filter-card">
+                        <h3 class="filter-card-title">Popular Tags</h3>
+                        <div class="filter-tags">
+                            <a href="blog.html">Recipe</a>
+                            <a href="blog.html">Breakfast</a>
+                            <a href="blog.html">Dinner</a>
+                            <a href="blog.html">Mutton</a>
+                            <a href="blog.html">Lunch</a>
+                            <a href="blog.html">Fast Food</a>
+                            <a href="blog.html">Pizzer</a>
+
+                            <a href="blog.html">Chicken</a>
+
+                            <a href="blog.html">Fish</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog details end -->
+
+    <!-- footer start -->
+
+    <footer class="footer-wrapper position-relative z-2">
+        <div class="container">
+            <div class="footer-top">
+                <div class="row align-items-center">
+                    <div class="col-xl-3 mb-4 mb-lg-3">
+                        <div class="footer-logo"><a href="index.html"><img src="assets/images/logo-white.svg"
+                                    alt="footer-logo"></a></div>
+                    </div>
+                    <div class="col-xl-9">
+                        <div class="subscribe-wrapper">
+                            <div>
+                                <h2 class="subscribe-title">Subscription News</h2>
+                                <p class="subscribe-text">Subscribe to the weekly newsletter for latest updates.</p>
+                            </div>
+                            <form class="newsletter-form"><input class="form-control white" type="email"
+                                    placeholder="Enter Email Address" required="">
+                                <button type="submit" class="theme-btn white">SUBCRIBE<i
+                                        class="fas fa-arrow-right ms-2"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="main-footer">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 col-xl-3 mb-4 mb-md-3 mb-lg-0">
+                        <div class="widget footer-widget">
+                            <h3 class="title-main">About Restaurant</h3>
+                            <div class="about-box">
+                                <p class="about-text white-color">Quickly supply alternative strategic theme areas
+                                    vis-a-vis B2C
+                                    mindshare.
+                                    Objectively repurpose stand-alone synergy via user-centric architectures.</p>
+                                <div class="social-box"><a href="https://www.facebook.com/"><i
+                                            class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i
+                                            class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i
+                                            class="fab fa-linkedin-in"></i></a> <a href="https://www.whatsapp.com/"><i
+                                            class="fab fa-whatsapp"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto mb-4 mb-md-3 mb-lg-0">
+                        <div class="widget footer-menu footer-widget">
+                            <h3 class="title-main">Quick Links</h3>
+                            <ul class="menu">
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="menu.html">Menu</a></li>
+                                <li><a href="testimonial.html">Testimonial</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto mb-4 mb-md-3 mb-lg-0">
+                        <div class="widget footer-menu footer-widget">
+                            <h3 class="title-main">Other Pages</h3>
+                            <ul class="menu">
+                                <li><a href="chef.html">Our Chef</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="cart.html">Cart</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="wishlist.html">Wishlist</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto">
+                        <div class="widget footer-widget">
+                            <h3 class="title-main">Contact Now</h3>
+                            <div class="contact-box">
+                                <div class="info-box">
+                                    <div class="info-box-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                    <p class="info-box-text"><a href="#">H-307, Shreedhar Flora, Ahmedabad, Gujarat
+                                            382350</a>
+                                    </p>
+                                </div>
+                                <div class="info-box">
+                                    <div class="info-box-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                                    <p class="info-box-text"><a href="tel:+1234567890">+(1) 123
+                                            456 7890</a> <a href="tel:+1234567890">+(1) 123 456
+                                            7890</a></p>
+                                </div>
+                                <div class="info-box">
+                                    <div class="info-box-icon"><i class="fa-regular fa-envelope"></i></div>
+                                    <p class="info-box-text"><a
+                                            href="mailto:info1.example@gmail.com">info1.example@gmail.com</a>
+                                        <a href="mailto:info2.example@gmail.com">info2.example@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-wrap">
+            <div class="container">
+
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                        <p class="copyright-text white-color">Copyright <i class="fa-regular fa-copyright"></i> 2022 <a
+                                href="https://www.srashtasoft.com/">SrashtaSoft</a>. All Rights
+                            Reserved.</p>
+                    </div>
+                    <div class="col-lg-6 text-end d-none d-lg-block">
+                        <div class="footer-links">
+                            <ul>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms &amp; Condition</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end -->
+
+    <!-- scroll top start -->
+
+    <a href="#" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <!-- scroll top end -->
+
+    <!-- mini cart start -->
+
+    <div class="offcanvas offcanvas-end cart-sidemenu-wrapper" tabindex="-1" id="cart-sidebar"
+          >
+        <div class="offcanvas-header d-flex align-items-center">
+            <h5 class="mb-0">Shopping cart</h5>
+            <button type="button" class="closeButton" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="mini-cart">
+                <li class="mini-cart-item">
+                    <a href="#" class="remove-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <a href="#" class="item-name">
+                        <img src="assets/images/item_1.png" alt="Item">Egg toast
+                    </a>
+                    <span class="quantity">
+                        1 × <span class="price"><span class="price-currency">$</span>55.00</span>
+                    </span>
+                </li>
+                <li class="mini-cart-item">
+                    <a href="#" class="remove-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <a href="#" class="item-name">
+                        <img src="assets/images/item_2.png" alt="Cart Image">Delicious Salad
+                    </a>
+                    <span class="quantity">
+                        1 × <span class="price"><span class="price-currency">$</span>40.00</span>
+                    </span>
+                </li>
+                <li class="mini-cart-item">
+                    <a href="#" class="remove-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <a href="#" class="item-name">
+                        <img src="assets/images/item_3.png" alt="Cart Image">Pepperoni Pizza
+                    </a>
+                    <span class="quantity">
+                        1 × <span class="price"><span class="price-currency">$</span>30.00</span>
+                    </span>
+                </li>
+                <li class="mini-cart-item">
+                    <a href="#" class="remove-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <a href="#" class="item-name">
+                        <img src="assets/images/item_4.png" alt="Cart Image">Spe. Rajma
+                    </a>
+                    <span class="quantity">
+                        1 × <span class="price"><span class="price-currency">$</span>25.00</span>
+                    </span>
+                </li>
+                <li class="mini-cart-item">
+                    <a href="#" class="remove-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <a href="#" class="item-name">
+                        <img src="assets/images/item_5.png" alt="Cart Image">BBQ Special
+                    </a>
+                    <span class="quantity">
+                        1 × <span class="price"><span class="price-currency">$</span>100.00</span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="offcanvas-footer p-3">
+            <p class="total-text"><b>Subtotal:</b> $250</p>
+            <div class="row">
+                <div class="col-6">
+                      <a href="cart.html" class="theme-btn w-100">VIEW CART</a>
+                </div>
+                <div class="col-6">
+                    <a href="checkout.html" class="theme-btn w-100">CHECKOUT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- mini cart end -->
+
+
+    <!-- search container start -->
+
+    <div class="popup-search-box d-none d-lg-block" id="popup-search">
+        <button class="search-close search_btn">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <form action="#">
+            <input type="text" placeholder="What are you looking for?">
+            <button type="submit" class="search_btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+    </div>
+
+    <!-- search container end -->
+
+    <!-- loader start -->
+    <div class="loader-section">
+        <span class="loader">
+            <span></span>
+            <span></span>
+        </span>
+    </div>
+    <!-- loader end -->
+
+    <!-- bootstrap 5.0.2 - js -->
+    <script src="assets/vendor/bootstrap_5.0.2/js/bootstrap.min.js"></script>
+
+    <!-- jquery-3.6.1 -->
+    <script src="assets/vendor/jquery_3.6.1/jquery_3.6.1.min.js"></script>
+
+    <!-- jquery isotope-3.0.6 -->
+    <script src="assets/vendor/jquery_isotope/isotope_docs.min.js"></script>
+
+    <!-- slick -->
+    <script src="assets/vendor/slick_1.8.1/slick.min.js"></script>
+    <script src="assets/vendor/slick_1.8.1/slick_animation.js"></script>
+    <!-- header js -->
+    <script src="assets/js/header.js"></script>
+
+    <!-- skider js -->
+    <script src="assets/js/slider.js"></script>
+
+    <!-- theme js -->
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
